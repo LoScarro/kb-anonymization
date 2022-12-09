@@ -1,0 +1,84 @@
+
+## Pseudocode Expanded
+
+Input: 
+R: Raw dataset
+k: Level of anonymization
+P: A subject program
+O: Configuration option: P-T, P-F, or I-T.
+
+Output: 
+R': Anonymized dataset for release
+
+Pseudocode:
+Initialize R' as empty table
+
+# ------------------------- The Program Execution module -------------------------
+
+Initialize PC_Buckets, a dictionary which groups tuples based on path conditions, mapping PC to a list of tuples which have that PC
+
+# fill PC_Buckets
+For each t in R
+  pc = execute P with t and collect the path condition 
+  If PC_Buckets does not contains pc
+    PC_Buckets[pc] = []
+  PC_Buckets[pc].append(t)
+  
+For each Bucket with (key, value) = (pc, B)
+  if len(B) < k:
+    del PC_Bucket[pc]    
+    output “Error: unsatisfiable case” and continue
+ 
+# ------------------------- The k-anonymization module -------------------------
+Initialize A, a dataset holding intermediate k-anonymized groups
+
+For each Bucket with (key, value) = (pc, B)
+  B' = Invoke a k-anonymization algorithm on B and get its result 
+  remove duplicates in B'
+
+  For each tuple b ∈ B'
+    If O == "I-T":
+      If len(b) <= 1 or no field in b contain concrete values
+        Output “Error: unsatisfiable case”
+        continue
+    A.add({b, pc, B})
+  
+# ------------------------- The Constraint Generation module -------------------------
+
+# Construct constraints for various configurations
+If O == "P-F":
+  S = gen_constraints_PF(R)
+
+For each {b, pc, B} in A:
+  if O == "P-T":
+    S = gen_costraints_PT(B)
+   
+  elif O == "I-T":
+    S = gen_costraints_IT(B, b)
+
+  else: 
+    Output “Error: unimplemented option”
+    continue
+
+  S = S U pc
+
+  # ------------------------- The Constraint Solver module -------------------------
+
+  # Invoke a constraint solver on S, and get its result r
+  r = gen_new_tuple(S) # finds a tuple which satisfy constraints
+  if a tuple r satisfy the constraints:
+    R' = R' U {r}
+    
+Return R'
+
+
+# ------------------------- The Constraint Solver module -------------------------
+def gen_constraints_PF(R):
+
+def gen_constraints_PT(B):
+
+def gen_constraints_IT(B, b):
+
+def gen_new_tuple(S):
+  
+
