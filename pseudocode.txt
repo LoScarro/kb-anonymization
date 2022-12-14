@@ -46,11 +46,13 @@ For each Bucket with (key, value) = (pc, B)
 # ------------------------- The Constraint Generation module -------------------------
 
 # Construct constraints for various configurations
-If O == "P-F":
-  S = gen_constraints_PF(R)
+
 
 For each {b, pc, B} in A:
-  if O == "P-T":
+  if O == "P-F":
+    S = gen_constraints_PF(B)
+
+  elif O == "P-T":
     S = gen_costraints_PT(B)
    
   elif O == "I-T":
@@ -72,13 +74,66 @@ For each {b, pc, B} in A:
 Return R'
 
 
-# ------------------------- The Constraint Solver module -------------------------
-def gen_constraints_PF(R):
+# ------------------------- gen_constraints_PF -------------------------
+
+def gen_constraints_PF(B):
+  # B is a set of raw tuples
+  # S is the set of constraints  
+  S = []
+
+ for field in fields:
+    for t in B:
+      S.append(f"{field} != {t.field}")
+  
+  return S
+
+# ------------------------- gen_constraints_PT -------------------------
 
 def gen_constraints_PT(B):
+  # B is a set of raw tuples
+  # S is the set of constraints  
+  S = []
+
+  field = # take it randomly or take the first one in b
+
+  for t in B:
+    S.append(f"{field} != {t.field}")
+
+  return S
+
+# ------------------------- gen_constraints_IT -------------------------
 
 def gen_constraints_IT(B, b):
+  # B is a set of raw tuples
+  # b is a tuple that may has gen values or '*'
+  S = []
+  field = None
 
-def gen_new_tuple(S):
+  if B contains no generic value or '*':
+    S = gen_constraints_PT(B)
+    field = first field of B
+
+  else:
+    field = # first field in B containing a gen value or '*'
+    for each t in B:
+      S.append(f"{field} != {t.field}")
   
+  # conc_field is the name of the column
+  for each conc_field in b:
+    if b[conc_field] is a concrete value and conc_field != field:
+      S.append(f"{conc_field} != {b.conc_field}")
 
+  return S
+
+# ------------------------- The Constraint Solver module -------------------------
+
+# finds a tuple which satisfy constraints
+def gen_new_tuple(S):
+  # S is the set of constraints
+  # r is the tuple that satisfies the constraints
+
+  # Invoke a constraint solver on S, and get its result r
+  # r = solve(S)
+
+  return r
+  
