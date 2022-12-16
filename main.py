@@ -2,6 +2,7 @@ import argparse
 from src import program_execution as pe
 import numpy as np
 import pandas as pd
+import logging
 
 def main():
     parser = argparse.ArgumentParser()
@@ -9,11 +10,17 @@ def main():
     parser.add_argument('--output_file', type=str, default="data/out.csv")
     parser.add_argument('--k', type=int)
     parser.add_argument('--bpl', type=str, default="PT", help="Behaviour Preservation Level (PT) (PF) (IT)")
+    parser.add_argument("--verbose", action='store_true')
+
     args = parser.parse_args()
 
+    if args.verbose:
+        logging.basicConfig(format='{levelname}:{message}', level=logging.INFO, style='{')  # output info on stdout
+    
     R = pd.read_csv(args.input_file)
 
-    pe.program_execution(R, args.k)
+    pe.program_execution(R , args.k)
+
 
     return
 
