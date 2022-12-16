@@ -8,7 +8,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_file', type=str, default="data/in.csv")
     parser.add_argument('--output_file', type=str, default="data/out.csv")
-    parser.add_argument('--k', type=int)
+    parser.add_argument('--k', type=int, default=2)
     parser.add_argument('--bpl', type=str, default="PT", help="Behaviour Preservation Level (PT) (PF) (IT)")
     parser.add_argument("--verbose", action='store_true')
 
@@ -19,8 +19,8 @@ def main():
     
     R = pd.read_csv(args.input_file)
 
-    pe.program_execution(R , args.k)
-
+    PC_Buckets = pe.program_execution(R, args.k)
+    print(PC_Buckets)
 
     return
 
