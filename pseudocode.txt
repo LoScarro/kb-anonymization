@@ -125,7 +125,7 @@ def gen_constraints_IT(B, b):
 
   return S
 
-# ------------------------- The Constraint Solver module -------------------------
+# ------------------------- The Constraint Solver -------------------------
 
 # finds a tuple which satisfy constraints
 def gen_new_tuple(S):
