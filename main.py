@@ -22,13 +22,13 @@ def main():
     R = pd.read_csv(args.input_file)
 
     sensitive = {args.sensitive_column}
-    all_cols = set(R.columns.values.tolist())
-    non_sensitive = all_cols - sensitive
+    all_cols = R.columns.values.tolist()
+    non_sensitive = set(all_cols) - sensitive
 
     PC_Buckets = pe.program_execution(R, args.k)
     logging.info("Buckets Created:" + str(PC_Buckets))
 
-    A = ka.k_anonymization(PC_Buckets, args.sensitive_column, list(non_sensitive), args.k, args.bpl)
+    A = ka.k_anonymization(PC_Buckets, all_cols, args.sensitive_column, list(non_sensitive), args.k, args.bpl)
 
     return
 
