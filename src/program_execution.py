@@ -1,6 +1,6 @@
 import copy
 import logging
-from tests import test as test
+from test_dir import test as test
 
 
 class PathCondition:
@@ -26,7 +26,7 @@ def program_execution(R, k):
         PC_str = PC.toStr()
         if PC_str not in PC_Buckets:
             PC_Buckets[PC_str] = []
-        PC_Buckets[PC_str].append(t)
+        PC_Buckets[PC_str].append(t[1:])
     
     # remove buckets which have not at least k elements
     PC_Buckets_copy = copy.deepcopy(PC_Buckets)

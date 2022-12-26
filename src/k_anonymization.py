@@ -15,7 +15,12 @@ def k_anonymization(PC_Buckets, sd, qi, k, bpl):
     # For each Bucket with (key, value) = (pc, B)
     for pc, B in PC_Buckets.items():
         # Invoke a k-anonymization algorithm on B and get its result 
-        p = anonypy.Preserver(B, qi, sd)
+        df = pd.DataFrame(data=B, columns=list(qi)+[sd])
+
+        for name in (list(qi)+[sd]):
+            df[name] = df[name].astype("category")
+
+        p = anonypy.Preserver(df, qi, sd)
         B_anon = p.anonymize_k_anonymity(k)
         #   remove duplicates in B'
         # remove_duplicates(B_anon)
