@@ -136,4 +136,3 @@ def gen_new_tuple(S):
   # r = solve(S)
 
   return r
-  

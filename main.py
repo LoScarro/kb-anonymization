@@ -1,6 +1,8 @@
 import argparse
+import copy
 from src import program_execution as pe
 from src import k_anonymization as ka
+from src import constraint_generation as cg
 import numpy as np
 import pandas as pd
 import logging
@@ -21,15 +23,15 @@ def main():
     
     R = pd.read_csv(args.input_file)
 
-    sensitive = {args.sensitive_column}
     all_cols = R.columns.values.tolist()
-    non_sensitive = set(all_cols) - sensitive
+    non_sensitive = copy.deepcopy(all_cols)
+    non_sensitive.remove(args.sensitive_column)
 
     PC_Buckets = pe.program_execution(R, args.k)
     logging.info("Buckets Created:" + str(PC_Buckets))
 
-    A = ka.k_anonymization(PC_Buckets, all_cols, args.sensitive_column, list(non_sensitive), args.k, args.bpl)
-
+    A = ka.k_anonymization(PC_Buckets, all_cols, args.sensitive_column, non_sensitive, args.k, args.bpl)
+    cg.constraint_generation(A, args.bpl, non_sensitive)
     return
 
 
