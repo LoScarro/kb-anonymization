@@ -12,7 +12,7 @@ def main():
     parser.add_argument('--input_file', type=str, default="data/in.csv")
     parser.add_argument('--output_file', type=str, default="data/out.csv")
     parser.add_argument('--k', type=int, default=2)
-    parser.add_argument('--bpl', type=str, default="PT", help="Behaviour Preservation Level (PT) (PF) (IT)")
+    parser.add_argument('--bpl', type=str, default="PF", help="Behaviour Preservation Level (PT) (PF) (IT)")
     parser.add_argument('--sensitive_column', type=str, default="disease")
     parser.add_argument("--verbose", action='store_true')
 

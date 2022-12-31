@@ -109,15 +109,17 @@ def gen_constraints_IT(B, b):
   S = []
   field = None
 
-  if B contains no generic value or '*':
+  # ensure no tuple repeat
+  if b contains no generic value or '*':
     S = gen_constraints_PT(B)
-    field = first field of B
+    field = first field of b
 
   else:
-    field = # first field in B containing a gen value or '*'
+    field = # first field in b containing a gen value or '*'
     for each t in B:
       S.append(f"{field} != {t.field}")
   
+  # ensure some fields mantain their values
   # conc_field is the name of the column
   for each conc_field in b:
     if b[conc_field] is a concrete value and conc_field != field:

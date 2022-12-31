@@ -1,10 +1,7 @@
 import logging
 from anonypy.anonypy import anonypy
 import pandas as pd
-
-def is_concrete(sd, field, value):
-    # a value is concrete if not contains "-" or ","
-    return (("-" not in value) and ("," not in value) and (field != sd))
+from src.utility import is_concrete
 
 # Initialize PC_Buckets, a dictionary which groups tuples based on path conditions, mapping PC to a list of tuples which have that PC
 def k_anonymization(PC_Buckets, all_cols, sd, qi, k, bpl):
@@ -33,7 +30,6 @@ def k_anonymization(PC_Buckets, all_cols, sd, qi, k, bpl):
             if bpl == "IT" and (len(b) <= 1 or not any(is_concrete(sd, field, value) for field, value in b.items())):
                 logging.error("Error: unsatisfiable case")
                 continue
-            print("aaaa")
             A.append((b, pc, B))
 
     return A
