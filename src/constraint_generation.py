@@ -20,6 +20,7 @@ import random
 import logging
 from src.utility import is_concrete, first_concrete
 from src.constraint_solver import gen_new_tuple
+import re
 
 def gen_constraints_IT(B, b, fields):
     # B is a set of raw tuples
@@ -36,13 +37,13 @@ def gen_constraints_IT(B, b, fields):
     else:
         field, idx = first_concrete(b) # first field in b containing a gen value or '*'
         for t in B:
-            S.add(f"{field} != {t[idx]}")
+            S.add((field, "!=", t[idx]))
     
     # ensure some fields mantain their values
     # conc_field is the name of the column
     for conc_field in fields:
         if is_concrete("", conc_field, b[conc_field]) and conc_field != field:
-            S.add(f"{conc_field} != {b[conc_field]}")
+            S.add((conc_field, "!=", b[conc_field]))
 
     return S
 
@@ -54,7 +55,7 @@ def gen_constraints_PT(B, fields):
     i = random.randint(0, len(fields) - 1)
     field = fields[i]
     for t in B:
-        S.add(f"{field} != {t[i]}")
+        S.add((field, "!=", t[i]))
 
     return S
 
@@ -65,12 +66,12 @@ def gen_constraints_PF(B, fields):
     
     for t in B:
         for i, field in enumerate(fields):
-            S.add(f"{field} != {t[i]}")
+            S.add((field, "!=", t[i]))
     
     return S
 
 
-def constraint_generation(A, bpl, fields):
+def constraint_generation(A, bpl, fields, PC_map):
     R_out = set()
 
     for (b, pc, B) in A:
@@ -86,11 +87,11 @@ def constraint_generation(A, bpl, fields):
         else:
             logging.error("Error: unimplemented option")
             continue
-
-        S = (S, pc)
+        
+        S = S.union(PC_map[pc])
 
         # Invoke a constraint solver on S, and get its result r
-        r = gen_new_tuple(S) # finds a tuple which satisfy constraints
+        r = gen_new_tuple(S, fields) # finds a tuple which satisfy constraints
         # if a tuple r satisfy the constraints:
         R_out.add(r)
             

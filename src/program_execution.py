@@ -16,14 +16,14 @@ def program_execution(R, k):
 
     # fill PC_Buckets
     PC_Buckets = {}
-
+    PC_map = {}
     for t in R.itertuples():
         # execute P with t and collect the path condition 
         pc = []
         test.P_test(t, pc)
         PC = PathCondition(pc)
-
-        PC_str = PC.toStr()
+        PC_str = PC.toStr()     # convert to string because PC is not hashable
+        PC_map[PC_str] = pc     # map for future use
         if PC_str not in PC_Buckets:
             PC_Buckets[PC_str] = []
         PC_Buckets[PC_str].append(list(t[1:]))
@@ -35,4 +35,4 @@ def program_execution(R, k):
             del PC_Buckets[PC_str]    
             logging.error("Error: unsatisfiable case")
 
-    return PC_Buckets
+    return PC_Buckets, PC_map
