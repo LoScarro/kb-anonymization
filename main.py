@@ -14,6 +14,7 @@ def main():
     parser.add_argument('--k', type=int, default=2)
     parser.add_argument('--bpl', type=str, default="PT", help="Behaviour Preservation Level (PT) (PF) (IT)")
     parser.add_argument('--sensitive_column', type=str, default="disease")
+    parser.add_argument('--config_file', type=str, default="config/basic.cfg")
     parser.add_argument("--verbose", action='store_true')
 
     args = parser.parse_args()
@@ -31,7 +32,7 @@ def main():
     logging.info("Buckets Created:" + str(PC_Buckets))
 
     A = ka.k_anonymization(PC_Buckets, all_cols, args.sensitive_column, non_sensitive, args.k, args.bpl)
-    r = cg.constraint_generation(A, args.bpl, non_sensitive, PC_map)
+    r = cg.constraint_generation(A, args.bpl, non_sensitive, PC_map, args.config_file)
     return
 
 

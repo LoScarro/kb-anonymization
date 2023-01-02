@@ -71,6 +71,7 @@ def add_range_constraints(solver, dict_z3, S):
 # add paths' constraints collected during the execution of the program
 def set_constraints(S, solver, dict_z3):
     for (attr, op, val) in S:
+        val = int(val)
         solver.add(parseOp(dict_z3, attr, op, val))
 
 
@@ -84,9 +85,11 @@ def z3model2row(model, dict_z3):
 
 
 # collect all the constraints and try to derive a new tuple
-def gen_new_tuple(S, fields):
+def gen_new_tuple(S, fields, config_file):
     # Z3 variables and solver
     solver = Solver()
+
+    configs = [line.split() for line in open(config_file)]
 
     dict_z3 = {}
     for f in fields:
@@ -95,6 +98,7 @@ def gen_new_tuple(S, fields):
     # collecting constraints
     # add_range_constraints(solver, dict_z3, S)  # range-based
     set_constraints(S, solver, dict_z3)     # path-based
+    set_constraints(configs, solver, dict_z3)     # path-based
 
     # try to solve the equation
     if solver.check() == sat:

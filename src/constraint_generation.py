@@ -70,7 +70,7 @@ def gen_constraints_PF(B, fields):
     return S
 
 
-def constraint_generation(A, bpl, fields, PC_map):
+def constraint_generation(A, bpl, fields, PC_map, cfg):
     R_out = []
 
     for (b, pc, B) in A:
@@ -90,7 +90,7 @@ def constraint_generation(A, bpl, fields, PC_map):
         S = S.union(PC_map[pc])
 
         # Invoke a constraint solver on S, and get its result r
-        r = gen_new_tuple(S, fields) # finds a tuple which satisfy constraints
+        r = gen_new_tuple(S, fields, cfg) # finds a tuple which satisfy constraints
         # if a tuple r satisfy the constraints:
         R_out.append(r)
             
