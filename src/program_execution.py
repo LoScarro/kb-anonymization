@@ -33,6 +33,6 @@ def program_execution(R, k):
     for PC_str, B in PC_Buckets_copy.items():
         if len(B) < k:
             del PC_Buckets[PC_str]    
-            logging.error("Unsatisfiable case")
+            logging.info("Unsatisfiable case founded")
 
     return PC_Buckets, PC_map

@@ -1,108 +1,51 @@
-from z3 import *
-
-# finds a tuple which satisfy constraints
-    #    S is the set of constraints
-    #    r is the tuple that satisfies the constraints
-
-    #    Invoke a constraint solver on S, and get its result r
-    #    r = solve(S)
-
-    #     return r
-    
-
+import copy
+import random
 
 # transform a high level constraint in a z3 formula
-def parseOp(dict_z3, attr, op, val):
+def parseOp(possible_values, attr, op, val):
     if op == '==':
-        return (dict_z3[attr] == val)
+        possible_values[attr].add(val)
     elif op == '!=':
-        return (dict_z3[attr] != val)
+        possible_values[attr].remove(val)
     elif op == '>=':
-        return (dict_z3[attr] >= val)
+        possible_values[attr] = set(filter(lambda x: x >= val, possible_values[attr]))
     elif op == '<=':
-        return (dict_z3[attr] <= val)
+        possible_values[attr] = set(filter(lambda x: x <= val, possible_values[attr]))
     elif op == '>':
-        return (dict_z3[attr] > val)
+        possible_values[attr] = set(filter(lambda x: x > val, possible_values[attr]))
     elif op == '<':
-        return (dict_z3[attr] < val)
+        possible_values[attr] = set(filter(lambda x: x < val, possible_values[attr]))
     else:
         print('[!!] This operation ({}) is not allowed'.format(op))
         exit(1)
 
 
-# add constraints about ranges of attributes (after have seen the dataset and the test program)
-def add_range_constraints(solver, dict_z3, S):
-    for conf in S:
-        if conf.startswith('#'):
-            # constraints which involve 2 fields
-            arr = conf[1:].split(' ')
-            solver.add(parseOp(dict_z3, arr[0], arr[1], dict_z3[arr[2]]))
-
-        else:
-            # range constraints of a single field
-            field, constraints = conf.split(':')
-            lst = constraints.split(',')
-            if len(lst) == 1:   # all constraints are in AND
-                ops_vals = lst[0].split(' ')
-                for i in range(0, len(ops_vals), 2):
-                    op = ops_vals[i]
-                    val = int(ops_vals[i + 1])
-                    solver.add(parseOp(dict_z3, field, op, val))
-
-            else:
-                ors = []
-                for or_c in lst:
-                    ands = []
-                    ops_vals = or_c.split(' ')
-                    for i in range(0, len(ops_vals), 2):
-                        op = ops_vals[i]
-                        val = int(ops_vals[i + 1])
-                        ands += [parseOp(dict_z3, field, op, val)]
-
-                    if len(ands) == 1:
-                        ors += [ands[0]]  # a set of OR conditions
-
-                    else:
-                        ors += [And(ands)]  # a set of OR of ANDs conditions
-
-                solver.add(Or(ors))
-
-
 # add paths' constraints collected during the execution of the program
-def set_constraints(S, solver, dict_z3):
+def set_constraints(S, all_constraints, possible_values):
     for (attr, op, val) in S:
         val = int(val)
-        solver.add(parseOp(dict_z3, attr, op, val))
+        all_constraints.add(parseOp(possible_values, attr, op, val))
 
 
-# convert the Z3 model into a tuple (== row in the released dataset)
-def z3model2row(model, dict_z3):
-    row = {}
-    for k, v in dict_z3.items():
-        if model[v] is not None:
-            row[k] = model[v].as_long()
-    return row
-
+def get_possible_tuple(possible_values, fields, b):
+    r = copy.deepcopy(b)
+    for field in fields:
+        r[field] = random.choice(tuple(possible_values[field]))
+    return r
 
 # collect all the constraints and try to derive a new tuple
-def gen_new_tuple(S, fields, config_file):
-    # Z3 variables and solver
-    solver = Solver()
+def gen_new_tuple(S, fields, config_file, b, min_val, max_val):
+    all_constraints = set()
 
     configs = [line.split() for line in open(config_file)]
 
-    dict_z3 = {}
+    possible_values = {}
     for f in fields:
-        dict_z3[f] = Int(f)     #! not all values are integers
+        possible_values[f] = set(range(min_val[f], max_val[f]+1)) 
 
     # collecting constraints
-    # add_range_constraints(solver, dict_z3, S)  # range-based
-    set_constraints(S, solver, dict_z3)     # path-based
-    set_constraints(configs, solver, dict_z3)     # path-based
+    set_constraints(S, all_constraints, possible_values)     # path-based
+    set_constraints(configs, all_constraints, possible_values)     # path-based
 
-    # try to solve the equation
-    if solver.check() == sat:
-        model = solver.model()
-        return z3model2row(model, dict_z3)
-
-    return None
+    # get a tuple which satisfies all the constraints
+    return get_possible_tuple(possible_values, fields, b)
