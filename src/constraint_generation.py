@@ -71,7 +71,7 @@ def gen_constraints_PF(B, fields):
 
 
 def constraint_generation(A, bpl, fields, PC_map):
-    R_out = set()
+    R_out = []
 
     for (b, pc, B) in A:
         if bpl == "PF":
@@ -92,6 +92,6 @@ def constraint_generation(A, bpl, fields, PC_map):
         # Invoke a constraint solver on S, and get its result r
         r = gen_new_tuple(S, fields) # finds a tuple which satisfy constraints
         # if a tuple r satisfy the constraints:
-        R_out.add(r)
+        R_out.append(r)
             
     return R_out
