@@ -29,13 +29,12 @@ def gen_constraints_IT(B, b, fields):
     field = None
 
     # ensure no tuple repeat
-     
     if all(is_concrete("", fld, value) for fld, value in b.items()):
         S = gen_constraints_PT(B)
         field = b[0] # first field of b
 
     else:
-        field, idx = first_concrete(b) # first field in b containing a gen value or '*'
+        field, idx = first_concrete(b) # first field in b containing a gen value or '-' or ','
         for t in B:
             S.add((field, "!=", t[idx]))
     

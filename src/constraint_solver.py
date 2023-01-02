@@ -90,10 +90,10 @@ def gen_new_tuple(S, fields):
 
     dict_z3 = {}
     for f in fields:
-        dict_z3[f] = Int(f)     # non sono tutti int!
+        dict_z3[f] = Int(f)     #! not all values are integers
 
     # collecting constraints
-    #add_range_constraints(solver, dict_z3, S)  # range-based
+    # add_range_constraints(solver, dict_z3, S)  # range-based
     set_constraints(S, solver, dict_z3)     # path-based
 
     # try to solve the equation

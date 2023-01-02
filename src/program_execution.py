@@ -16,7 +16,7 @@ def program_execution(R, k):
 
     # fill PC_Buckets
     PC_Buckets = {}
-    PC_map = {}
+    PC_map = {}     # map path condition in string format to list format
     for t in R.itertuples():
         # execute P with t and collect the path condition 
         pc = []
