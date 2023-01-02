@@ -13,10 +13,6 @@ def k_anonymization(PC_Buckets, all_cols, sd, qi, k, bpl):
     for pc, B in PC_Buckets.items():
         # Invoke a k-anonymization algorithm on B and get its result 
         df = pd.DataFrame(data=B, columns=all_cols)
-
-        categorical = set(("city_birth", "disease"))
-        for name in categorical:
-            df[name] = df[name].astype("category")
         
         p = anonypy.Preserver(df, qi, sd)
         B_anon = p.anonymize_k_anonymity(k=2)

@@ -51,7 +51,7 @@ def gen_constraints_PT(B, fields):
     # S is the set of constraints
     S = set()
     # take it randomly or take the first one in b
-    i = random.randint(0, len(fields) - 1)
+    i = random.randint(0, len(fields) - 2)
     field = fields[i]
     for t in B:
         S.add((field, "!=", t[i]))
