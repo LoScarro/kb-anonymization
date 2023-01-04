@@ -12,7 +12,7 @@ def main():
     parser.add_argument('--input_file', type=str, default="data/in.csv")
     parser.add_argument('--output_file', type=str, default="data/out.csv")
     parser.add_argument('--k', type=int, default=2)
-    parser.add_argument('--bpl', type=str, default="IT", help="Behaviour Preservation Level (PT) (PF) (IT)")
+    parser.add_argument('--bpl', type=str, default="PF", help="Behaviour Preservation Level (PT) (PF) (IT)")
     parser.add_argument('--sensitive_column', type=str, default="disease")
     parser.add_argument('--config_file', type=str, default="config/basic.cfg")
     parser.add_argument("--verbose", action='store_true')
@@ -31,7 +31,7 @@ def main():
     PC_Buckets, PC_map = pe.program_execution(R, args.k)
 
     A = ka.k_anonymization(PC_Buckets, all_cols, args.sensitive_column, non_sensitive, args.k, args.bpl)
-    
+
     r = cg.constraint_generation(A, args.bpl, non_sensitive, PC_map, args.config_file)
     
     # from dictionary to output file

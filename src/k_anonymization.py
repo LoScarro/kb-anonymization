@@ -15,7 +15,7 @@ def k_anonymization(PC_Buckets, all_cols, sd, qi, k, bpl):
         df = pd.DataFrame(data=B, columns=all_cols)
         
         p = anonypy.Preserver(df, qi, sd)
-        B_anon = p.anonymize_k_anonymity(k=2)
+        B_anon = p.anonymize_k_anonymity(k)
 
         # remove duplicates in B'
         for row in B_anon:
