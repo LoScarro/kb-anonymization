@@ -1,3 +1,4 @@
+import copy
 import random
 import logging
 from src.utility import is_concrete, first_concrete
@@ -51,18 +52,21 @@ def gen_constraints_PF(B, fields):
     return S
 
 # Construct constraints for various configurations
-def constraint_generation(A, bpl, fields, PC_map, cfg):
+def constraint_generation(A, bpl, fields, categorical, PC_map, cfg, categorical_values):
     logging.info("Constraint Generation Module Starting")
+
     R_out = []
     for (b, pc, B) in A:
-        # take minimum value for each field in the bucket 
+        # take minimum value for each non categorical field in the bucket 
         min_val = {}        
-        # take maximum value for each field in the bucket 
-        max_val = {}        
+        # take maximum value for each non categorical field in the bucket 
+        max_val = {}
+
 
         for idx, field in enumerate(fields):
-            min_val[field] = min(x[idx] for x in B)
-            max_val[field] = max(x[idx] for x in B)
+            if field not in categorical: 
+                min_val[field] = min(x[idx] for x in B)
+                max_val[field] = max(x[idx] for x in B)
 
         if bpl == "PF":
             S = gen_constraints_PF(B, fields)
@@ -79,7 +83,7 @@ def constraint_generation(A, bpl, fields, PC_map, cfg):
         S = S.union(PC_map[pc])
 
         # Invoke a constraint solver on S, and get its result r
-        r = gen_new_tuple(S, fields, cfg, b, min_val, max_val) # finds a tuple which satisfy constraints
+        r = gen_new_tuple(S, fields, cfg, b, min_val, max_val, copy.deepcopy(categorical_values)) # finds a tuple which satisfy constraints
         # if a tuple r satisfy the constraints:
         R_out.append(r)
     
