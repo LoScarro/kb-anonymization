@@ -1,91 +1,91 @@
 id,age,zip_code,disease
-79,53,31204,Anorexia
-89,45,2579,Autism
-34,34,23229,AIDS
-43,10,11065,Alzheimer's disease
-48,19,28437,Anorexia
-88,61,2236,Autism
-53,43,35719,Cancer
-58,3,13687,Heart disease
-37,62,9964,Anorexia
-66,35,27789,Cancer
-77,7,4550,Alzheimer's disease
-22,35,23488,Anorexia
-5,15,33158,Autism
-27,60,31737,Cancer
-50,58,23071,Anorexia
-89,79,25268,Heart disease
-47,60,26994,AIDS
-57,70,26302,Autism
-8,30,15723,AIDS
-65,92,38272,Heart disease
-95,58,28101,Alzheimer's disease
-89,52,37797,Autism
-65,80,23621,Alzheimer's disease
-50,64,23949,Anorexia
-23,76,12373,Cancer
-37,54,29751,Heart disease
-31,30,26607,Anorexia
-61,26,11612,Heart disease
-33,30,29671,Alzheimer's disease
-61,60,37186,Autism
-93,27,25602,Anorexia
-35,68,11069,Autism
-91,85,31330,Alzheimer's disease
-48,44,2350,Anorexia
-22,54,21699,Alzheimer's disease
-30,66,35274,Autism
-11,44,16277,AIDS
-9,55,8611,Anorexia
-5,73,17467,Autism
-33,84,23684,Heart disease
-48,22,33419,Heart disease
-26,39,26063,AIDS
-61,43,8060,Anorexia
-42,90,26046,Anorexia
-55,66,9681,Cancer
-95,74,12883,Autism
-17,60,39171,Heart disease
-79,52,13254,Anorexia
-42,90,30934,Heart disease
-48,76,36279,Anorexia
-52,68,35148,Cancer
-70,59,15603,Anorexia
-23,63,35491,Autism
-25,23,7465,Autism
-83,86,94378,AIDS
-41,11,97034,Heart disease
-45,93,65538,AIDS
-45,43,68162,Autism
-65,76,90942,Heart disease
-96,6,60488,Alzheimer's disease
-6,30,87485,Heart disease
-20,21,65911,AIDS
-12,13,55460,Anorexia
-72,59,94614,Autism
-90,58,76382,Heart disease
-20,93,63931,AIDS
-34,20,95452,Alzheimer's disease
-12,2,69367,Autism
-92,53,86358,AIDS
-82,72,55310,Heart disease
-80,54,88899,Anorexia
-75,81,85777,Heart disease
-54,18,93304,Alzheimer's disease
-17,62,80235,Anorexia
-24,29,57279,Heart disease
-68,24,95941,Anorexia
-22,92,55202,Autism
-93,13,87155,Anorexia
-78,94,71040,Cancer
-70,33,62926,Heart disease
-30,66,64722,Alzheimer's disease
-41,63,81985,Cancer
-26,86,93535,Autism
-69,38,56207,Cancer
-35,10,84568,Heart disease
-81,39,85486,Alzheimer's disease
-73,85,77426,Heart disease
-97,75,84605,AIDS
-4,22,90465,Cancer
-79,64,72012,Heart disease
+94,31,23381,Anorexia
+17,90,22041,Autism
+39,62,36802,AIDS
+49,70,25231,Alzheimer's disease
+51,77,4365,Anorexia
+40,78,7772,Autism
+40,22,21208,Cancer
+60,40,4112,Heart disease
+53,20,9112,Anorexia
+73,79,8594,Cancer
+2,54,33418,Alzheimer's disease
+81,27,2413,Anorexia
+52,20,6060,Autism
+3,35,30533,Cancer
+55,30,40656,Anorexia
+39,89,31125,Heart disease
+79,36,113,AIDS
+56,33,2385,Autism
+2,17,35200,AIDS
+77,26,25643,Heart disease
+34,59,34726,Alzheimer's disease
+62,66,29499,Autism
+63,76,16007,Alzheimer's disease
+58,5,1552,Anorexia
+9,87,19010,Cancer
+82,5,20432,Heart disease
+5,87,14579,Anorexia
+11,12,19128,Heart disease
+23,75,15466,Alzheimer's disease
+61,30,15919,Autism
+53,92,20768,Anorexia
+11,88,9912,Autism
+97,5,20639,Alzheimer's disease
+24,42,12538,Anorexia
+52,90,35365,Alzheimer's disease
+18,27,3761,Autism
+33,62,1719,AIDS
+31,61,22794,Anorexia
+82,40,6389,Autism
+50,70,26851,Heart disease
+26,88,13578,Heart disease
+87,38,6812,AIDS
+55,72,34663,Anorexia
+99,5,18176,Anorexia
+78,56,14157,Cancer
+72,16,33631,Autism
+77,62,26661,Heart disease
+37,88,24541,Anorexia
+38,85,6872,Heart disease
+76,69,16182,Anorexia
+21,22,37829,Cancer
+38,62,25198,Anorexia
+46,17,40429,Autism
+57,81,39182,Autism
+62,66,60224,AIDS
+9,53,51216,Heart disease
+72,85,53509,AIDS
+6,69,53231,Autism
+24,39,55929,Heart disease
+75,79,57184,Alzheimer's disease
+75,18,94666,Heart disease
+16,34,83146,AIDS
+16,55,51045,Anorexia
+55,37,87526,Autism
+34,82,90481,Heart disease
+6,78,58044,AIDS
+21,16,76938,Alzheimer's disease
+23,11,78689,Autism
+75,20,93982,AIDS
+48,80,68518,Heart disease
+6,72,87704,Anorexia
+45,63,97454,Heart disease
+41,49,62954,Alzheimer's disease
+16,83,59404,Anorexia
+26,96,94752,Heart disease
+64,81,78536,Anorexia
+16,71,74609,Autism
+71,78,54727,Anorexia
+75,82,76433,Cancer
+80,24,63013,Heart disease
+80,91,83661,Alzheimer's disease
+93,6,63541,Cancer
+39,5,63478,Autism
+32,75,79993,Cancer
+21,65,93059,Heart disease
+33,92,85163,Alzheimer's disease
+23,66,95306,Heart disease
+81,16,80667,AIDS
+30,66,76851,Cancer
+73,19,76551,Heart disease

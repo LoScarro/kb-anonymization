@@ -9,7 +9,7 @@ import logging
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_file', type=str, default="data/in.csv")
+    parser.add_argument('--input_file', type=str, default="data/no_categorical.csv")
     parser.add_argument('--output_file', type=str, default="data/out.csv")
     parser.add_argument('--k', type=int, default=2)
     parser.add_argument('--bpl', type=str, default="PT", help="Behaviour Preservation Level (PT) (PF) (IT)")
