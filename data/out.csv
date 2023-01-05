@@ -1,5 +1,91 @@
 id,age,zip_code,disease
-81,76,18693,Anorexia
-19,81,10349,Autism
-51,23,13655,Autism
-86,80,3592,Heart disease
+79,53,31204,Anorexia
+89,45,2579,Autism
+34,34,23229,AIDS
+43,10,11065,Alzheimer's disease
+48,19,28437,Anorexia
+88,61,2236,Autism
+53,43,35719,Cancer
+58,3,13687,Heart disease
+37,62,9964,Anorexia
+66,35,27789,Cancer
+77,7,4550,Alzheimer's disease
+22,35,23488,Anorexia
+5,15,33158,Autism
+27,60,31737,Cancer
+50,58,23071,Anorexia
+89,79,25268,Heart disease
+47,60,26994,AIDS
+57,70,26302,Autism
+8,30,15723,AIDS
+65,92,38272,Heart disease
+95,58,28101,Alzheimer's disease
+89,52,37797,Autism
+65,80,23621,Alzheimer's disease
+50,64,23949,Anorexia
+23,76,12373,Cancer
+37,54,29751,Heart disease
+31,30,26607,Anorexia
+61,26,11612,Heart disease
+33,30,29671,Alzheimer's disease
+61,60,37186,Autism
+93,27,25602,Anorexia
+35,68,11069,Autism
+91,85,31330,Alzheimer's disease
+48,44,2350,Anorexia
+22,54,21699,Alzheimer's disease
+30,66,35274,Autism
+11,44,16277,AIDS
+9,55,8611,Anorexia
+5,73,17467,Autism
+33,84,23684,Heart disease
+48,22,33419,Heart disease
+26,39,26063,AIDS
+61,43,8060,Anorexia
+42,90,26046,Anorexia
+55,66,9681,Cancer
+95,74,12883,Autism
+17,60,39171,Heart disease
+79,52,13254,Anorexia
+42,90,30934,Heart disease
+48,76,36279,Anorexia
+52,68,35148,Cancer
+70,59,15603,Anorexia
+23,63,35491,Autism
+25,23,7465,Autism
+83,86,94378,AIDS
+41,11,97034,Heart disease
+45,93,65538,AIDS
+45,43,68162,Autism
+65,76,90942,Heart disease
+96,6,60488,Alzheimer's disease
+6,30,87485,Heart disease
+20,21,65911,AIDS
+12,13,55460,Anorexia
+72,59,94614,Autism
+90,58,76382,Heart disease
+20,93,63931,AIDS
+34,20,95452,Alzheimer's disease
+12,2,69367,Autism
+92,53,86358,AIDS
+82,72,55310,Heart disease
+80,54,88899,Anorexia
+75,81,85777,Heart disease
+54,18,93304,Alzheimer's disease
+17,62,80235,Anorexia
+24,29,57279,Heart disease
+68,24,95941,Anorexia
+22,92,55202,Autism
+93,13,87155,Anorexia
+78,94,71040,Cancer
+70,33,62926,Heart disease
+30,66,64722,Alzheimer's disease
+41,63,81985,Cancer
+26,86,93535,Autism
+69,38,56207,Cancer
+35,10,84568,Heart disease
+81,39,85486,Alzheimer's disease
+73,85,77426,Heart disease
+97,75,84605,AIDS
+4,22,90465,Cancer
+79,64,72012,Heart disease

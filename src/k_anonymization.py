@@ -23,7 +23,7 @@ def k_anonymization(PC_Buckets, all_cols, sd, qi, k, bpl):
     
         for b in B_anon:
             # no field in b contain concrete values
-            if bpl == "IT" and (len(b) <= 1 or not any(is_concrete(sd, field, value) for field, value in b.items())):
+            if bpl == "IT" and (len(b) <= 1 or not any(is_concrete(field, value, sd) for field, value in b.items())):
                 logging.info("Unsatisfiable case founded")
                 continue
             A.append((b, pc, B))

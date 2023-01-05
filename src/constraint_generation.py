@@ -2,7 +2,6 @@ import random
 import logging
 from src.utility import is_concrete, first_concrete
 from src.constraint_solver import gen_new_tuple
-import re
 
 def gen_constraints_IT(B, b, fields):
     # B is a set of raw tuples
@@ -11,7 +10,7 @@ def gen_constraints_IT(B, b, fields):
     field = None
 
     # ensure no tuple repeat
-    if all(is_concrete("", fld, value) for fld, value in b.items()):
+    if all(is_concrete(fld, value) for fld, value in b.items()):
         S = gen_constraints_PT(B)
         field = b[0] # first field of b
 
@@ -23,7 +22,7 @@ def gen_constraints_IT(B, b, fields):
     # ensure some fields mantain their values
     # conc_field is the name of the column
     for conc_field in fields:
-        if is_concrete("", conc_field, b[conc_field]) and conc_field != field:
+        if is_concrete(conc_field, b[conc_field]) and conc_field != field:
             S.add((conc_field, "!=", b[conc_field]))
 
     return S
@@ -33,7 +32,7 @@ def gen_constraints_PT(B, fields):
     # S is the set of constraints
     S = set()
     # take it randomly or take the first one in b
-    i = random.randint(0, len(fields) - 2)
+    i = random.randint(0, len(fields)-1)
     field = fields[i]
     for t in B:
         S.add((field, "!=", t[i]))
@@ -75,9 +74,8 @@ def constraint_generation(A, bpl, fields, PC_map, cfg):
             S = gen_constraints_IT(B, b, fields)
         
         else:
-            logging.error("Incorrect Behaviour Preservation Level")
-            continue
-        
+            raise Exception("Incorrect Behaviour Preservation Level")
+
         S = S.union(PC_map[pc])
 
         # Invoke a constraint solver on S, and get its result r
