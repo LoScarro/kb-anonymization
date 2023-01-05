@@ -9,14 +9,14 @@ import logging
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_file', type=str, default="data/db_10000.csv")
+    parser.add_argument('--input_file', type=str, default="data/categorical.csv")
     parser.add_argument('--output_file', type=str, default="data/out.csv")
     parser.add_argument('--k', type=int, default=2)
-    parser.add_argument('--bpl', type=str, default="PF", help="Behaviour Preservation Level (PT) (PF) (IT)")
+    parser.add_argument('--bpl', type=str, default="PT", help="Behaviour Preservation Level (PT) (PF) (IT)")
     parser.add_argument('--categorical_columns', type=str, default="city_birth", help="Categorical Fields (separated by space)")
     parser.add_argument('--sensitive_column', type=str, default="disease")
     parser.add_argument('--config_file', type=str, default="config/basic.cfg")
-    parser.add_argument("--verbose", action='store_true')
+    parser.add_argument("--verbose", default=True, action='store_true')
 
     args = parser.parse_args()
 
@@ -48,7 +48,6 @@ def main():
     df.to_csv(args.output_file, index = False, header=True)
     
     return
-
 
 if __name__ == "__main__":
     main()

@@ -80,12 +80,11 @@ def constraint_generation(A, bpl, fields, categorical, PC_map, cfg, categorical_
         else:
             raise Exception("Incorrect Behaviour Preservation Level")
 
-        S = S.union(PC_map[pc])
-
         # Invoke a constraint solver on S, and get its result r
-        r = gen_new_tuple(S, fields, cfg, b, min_val, max_val, copy.deepcopy(categorical_values)) # finds a tuple which satisfy constraints
+        r = gen_new_tuple(S, PC_map[pc], fields, cfg, b, min_val, max_val, copy.deepcopy(categorical_values)) # finds a tuple which satisfy constraints
         # if a tuple r satisfy the constraints:
-        R_out.append(r)
+        if r:
+            R_out.append(r)
     
     logging.info("Output Dataset Generated")
 

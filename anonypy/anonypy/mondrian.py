@@ -1,4 +1,6 @@
+import warnings
 from anonypy.anonypy import anonymity
+warnings.filterwarnings('ignore')
 
 class Mondrian:
     def __init__(self, df, feature_columns, sensitive_column=None):

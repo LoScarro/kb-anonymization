@@ -1,0 +1,999 @@
+id,age,city_birth,zip_code,disease
+1,55,San Giovanni Del Dosso,25049,Cancer
+2,50,Comina (La),16151,AIDS
+3,17,Marina Di Camerota,73015,AIDS
+4,8,Tonnarella,19028,Autism
+5,40,San Bartolomeo Lanze,58014,Autism
+6,41,Cade',13884,Autism
+7,57,Corsione,86070,AIDS
+8,59,Arre,85020,Autism
+9,60,San Giovanni,87045,Autism
+10,70,Trigolo,34010,Heart disease
+11,51,Selino Basso,98074,Alzheimer's disease
+12,56,San Giacomo Delle Segnate,27020,Heart disease
+13,53,Cerreto,38077,Anorexia
+14,40,Bergantino,56017,Heart disease
+15,25,Barberino Val D'Elsa,41028,Autism
+16,11,Badia Di Cava De' Tirreni,15060,Anorexia
+17,2,Santa Maria Del Taro,53030,Heart disease
+18,11,Rifreddo,39010,Cancer
+19,89,Nuraminis,16167,Heart disease
+20,12,Flagogna,00020,Autism
+21,9,Rinaggiu,25019,Cancer
+22,29,Lodrone,39056,Heart disease
+23,56,Banco,74020,Anorexia
+24,70,Biella,39028,Autism
+25,18,San Gallo,86045,Heart disease
+26,38,Bacchereto,37137,Alzheimer's disease
+27,62,Sant'Angelo Di Cetraro,90049,AIDS
+28,13,Montecastelli Pisano,39011,Autism
+29,53,Guardamiglio,16010,AIDS
+30,42,Colognole,00152,Anorexia
+31,32,Sant'Antonino Di Susa,51100,AIDS
+32,37,Mandrogne,39010,Anorexia
+33,49,Cassano Spinola,56020,Heart disease
+34,94,San Lorenzo,87040,AIDS
+35,87,Plawenn,08030,Alzheimer's disease
+36,17,Salcito,16030,Autism
+37,53,Vannullo,61037,AIDS
+38,65,Luserna,27023,Autism
+39,7,Monticchiello,21010,Heart disease
+40,44,Sala,81028,AIDS
+41,53,Pedrengo,33100,Alzheimer's disease
+42,63,San Cipriano Picentino,71027,Anorexia
+43,75,Pasturo,01020,AIDS
+44,33,Erchie,90040,Autism
+45,14,San Piero In Bagno,17014,Anorexia
+46,79,Catania,81037,Heart disease
+47,68,Morro Reatino,60044,Alzheimer's disease
+48,63,Prignano Cilento,82020,Anorexia
+49,49,San Girolamo,23035,AIDS
+50,18,San Paolo,96010,Cancer
+51,70,Magliano Nuovo,38060,Anorexia
+52,39,Molini,51016,Heart disease
+53,7,Specchia Tarantina,84052,Anorexia
+54,4,Molteno,30014,Alzheimer's disease
+55,28,Pontecagnano Faiano,38078,Heart disease
+56,68,Hafling,25061,Anorexia
+57,89,Serle,88040,AIDS
+58,52,Gioia Del Colle,90131,Heart disease
+59,15,San Martino In Passiria,41036,Anorexia
+60,93,Motta Sant'Anastasia,33021,Autism
+61,9,Fabro Scalo,98157,Alzheimer's disease
+62,41,Larciano,82030,Autism
+63,78,San Pancrazio,39030,Cancer
+64,87,Sutri,29023,Autism
+65,1,Monterotondo Marittimo,30030,AIDS
+66,15,Vische,26010,Anorexia
+67,85,Verdins,39040,Autism
+68,25,Poderi Di Montemerano,00011,Cancer
+69,47,Pastorano,26010,Heart disease
+70,84,Villaggi,08013,Anorexia
+71,36,Viola,62012,Alzheimer's disease
+72,46,Ponzano Veneto,37060,Heart disease
+73,91,Prata,28841,Anorexia
+74,69,Calbola,90049,Alzheimer's disease
+75,31,San Pietro Sovera,26857,Alzheimer's disease
+76,98,Bertinoro,73040,Anorexia
+77,89,Premia,66034,Cancer
+78,35,Trescine,88041,Autism
+79,2,Montegridolfo,02016,Cancer
+80,4,Roccaverano,67013,Heart disease
+81,1,Casanova,40051,Heart disease
+82,19,Sesto San Giovanni,12047,Anorexia
+83,83,Parabiago,08012,Anorexia
+84,47,Isola Maggiore,01019,Alzheimer's disease
+85,35,Pedemonte,58100,Anorexia
+86,65,Arcade,39023,Anorexia
+87,94,Matine,88040,Cancer
+88,29,Lido Di Venezia,38100,AIDS
+89,17,Andorno Micca,98070,Cancer
+90,8,Kurtatsch,15050,Alzheimer's disease
+91,94,Robecco Sul Naviglio,87046,Heart disease
+92,94,Bussero,15040,Heart disease
+93,94,Seghe Di Velo,16030,Autism
+94,77,Cascina Costa,57032,Heart disease
+95,73,Agropoli Stazione,09028,Alzheimer's disease
+96,96,Torriglia,02010,Cancer
+97,34,Abatemarco,15010,Autism
+98,33,Deposito Di Luzzi,41038,Anorexia
+99,11,Montescudo,94012,Heart disease
+100,21,Baio Dora,30126,Autism
+101,53,Tignes,38032,Alzheimer's disease
+102,24,Pertosa,25065,Alzheimer's disease
+103,26,Pozzaglio Ed Uniti,89900,Alzheimer's disease
+104,87,Mombasiglio,28813,Anorexia
+105,26,Samone,87050,Cancer
+106,36,Rescalda,38030,Heart disease
+107,82,Sant'Angelo,60037,AIDS
+108,52,Sant'Eusebio,47012,AIDS
+109,68,Forno Di Omegna,09122,Autism
+110,80,Baura,83023,Heart disease
+111,66,Laureana Di Borrello,56021,Autism
+112,11,Longone Al Segrino,36010,Autism
+113,48,Vascon,20097,Alzheimer's disease
+114,89,Aquilonia,67013,Heart disease
+115,50,Atena Lucana Scalo,18038,Cancer
+116,72,Casez,14020,Heart disease
+117,4,Scorze',61040,Alzheimer's disease
+118,85,Lombardore,22010,AIDS
+119,51,La Bianca,19032,AIDS
+120,91,Settimo,09080,Heart disease
+121,69,Viotto,05035,AIDS
+122,53,Propata,98060,Cancer
+123,22,Colombaro Di Formigine,08030,Alzheimer's disease
+124,73,Carano,83041,Heart disease
+125,19,Cereta,33080,AIDS
+126,56,Vestone,09047,Heart disease
+127,11,Marciano Della Chiana,89029,Cancer
+128,88,Bologna,52010,AIDS
+129,54,Redu',38075,Heart disease
+130,100,Seluci,11022,Cancer
+131,5,Feronia,10040,Alzheimer's disease
+132,59,Elmas,90134,Autism
+133,59,Camaldoli,23890,Anorexia
+134,85,Scordia,37032,AIDS
+135,66,Macomer,22040,AIDS
+136,99,Su Planu,28041,Heart disease
+137,86,Meana Di Susa,58031,Heart disease
+138,38,Arienzo,06024,Anorexia
+139,71,Castello Di Cisterna,11010,Cancer
+140,19,Castelletta,28100,Alzheimer's disease
+141,30,San Marco D'Alunzio,16010,Heart disease
+142,81,Sant'Angelo Dei Lombardi,66041,Alzheimer's disease
+143,88,Castiglione Del Genovesi,19133,Heart disease
+144,60,San Sossio Di Serino,66026,AIDS
+145,73,Bellagio,98030,Cancer
+146,30,Santa Teresa,26835,AIDS
+147,76,Casiacco,74024,AIDS
+148,58,Perletto,75015,Cancer
+149,55,Vacone,12070,Alzheimer's disease
+150,76,Campochiaro,52100,Autism
+151,42,Valgatara,19020,Anorexia
+152,46,Tufara Valle,23020,Heart disease
+153,39,San Salvatore,54013,Cancer
+154,56,Genova,33087,Heart disease
+155,8,Porto Frailis,28010,AIDS
+156,15,Cimbergo,33010,Heart disease
+157,69,Vallelata,07021,Cancer
+158,66,Valle Ponticelli,44011,Cancer
+159,70,Deposito Di Luzzi,64100,AIDS
+160,31,San Pasquale,33040,Anorexia
+161,72,Vallo Di Nera,31040,Autism
+162,71,Lucolena,60015,AIDS
+163,69,Il Rosi,74016,Autism
+164,32,Guasticce,20836,Anorexia
+165,52,Corio,63061,Cancer
+166,94,Vestola Ghiare,16040,Heart disease
+167,4,Lingueglietta,81040,Anorexia
+168,64,Montespluga,84022,Alzheimer's disease
+169,63,Raossi,41055,Alzheimer's disease
+170,57,Corigliano D'Otranto,18020,Heart disease
+171,58,Vellano,21032,AIDS
+172,40,Cerea,88042,Cancer
+173,97,Scauri,83030,Anorexia
+174,77,Santa Maria Del Cedro,39057,Heart disease
+175,30,Luson,39021,AIDS
+176,67,Sambuco,80041,Cancer
+177,30,Migliarina,60011,Heart disease
+178,96,Monte San Giovanni,12074,Cancer
+179,55,Tabaccaro,35020,Autism
+180,71,Migliaro,40054,AIDS
+181,66,Malafrasca,03022,Anorexia
+182,92,Nibbiano,06049,AIDS
+183,53,Settefichi,63845,Heart disease
+184,39,Faltona,54016,Autism
+185,78,Tagliaferro,13821,AIDS
+186,72,Lauregno,81030,Anorexia
+187,35,Poggio Renatico,86011,Anorexia
+188,71,Valperga,64010,Heart disease
+189,75,Puia,85044,Autism
+190,62,Torino Di Sangro Stazione,55047,Heart disease
+191,25,Messina,90100,Heart disease
+192,66,Ponte Di Brenta,38092,AIDS
+193,40,Ornica,83054,Cancer
+194,31,Torremaggiore,81057,Alzheimer's disease
+195,44,San Benedetto Di Lugana,02043,Anorexia
+196,15,Talamone,89040,Heart disease
+197,58,Pianfei,10050,Autism
+198,36,Ferriere,66030,Alzheimer's disease
+199,15,Li Punti,13881,AIDS
+200,18,Greinwalden,28817,Alzheimer's disease
+201,97,Arcola,63857,AIDS
+202,40,Ravi,84020,Alzheimer's disease
+203,28,Prali,31010,Cancer
+204,56,Lacco Ameno,47843,AIDS
+205,77,Carbonera,02021,Alzheimer's disease
+206,7,Parma,67050,Heart disease
+207,10,Levada,66034,AIDS
+208,19,Montechiaro D'Asti,39020,Alzheimer's disease
+209,58,Dorgali,00010,Cancer
+210,47,Rocchetta Di Fabriano,16148,Cancer
+211,94,Ronco Campo Canneto,06059,Autism
+212,52,Gissi,50126,Cancer
+213,3,Palma Campania,93100,Autism
+214,82,Teor,73053,Cancer
+215,43,Cogliandrino,56045,Heart disease
+216,82,Provesano,21045,Alzheimer's disease
+217,90,Chizzola,10090,Anorexia
+218,6,Sacrofano,15010,Alzheimer's disease
+219,69,Gorgonzola,42100,Autism
+220,20,Pianoconte,43100,Cancer
+221,81,Filighera,38079,AIDS
+222,8,Lenzi,84077,Alzheimer's disease
+223,42,Cavaso Del Tomba,73023,Heart disease
+224,63,Scandiano,89843,AIDS
+225,13,Ellen,81051,Autism
+226,28,Fematre,83038,AIDS
+227,24,Boscochiaro,24020,Autism
+228,86,Pirri,24100,Anorexia
+229,56,Poetto,02021,Autism
+230,95,San Romano,32010,AIDS
+231,43,Marchesa,81050,AIDS
+232,44,Brixen,87030,Cancer
+233,55,Sant'Antonio,01037,Cancer
+234,68,Ponte Rio,07026,Autism
+235,7,La Scala,65132,Alzheimer's disease
+236,16,Scampitella,39020,Autism
+237,82,Fragagnano,10062,AIDS
+238,44,Piegaro,23880,Autism
+239,80,Rocca D'Evandro,32100,AIDS
+240,54,Curon Venosta,40060,Anorexia
+241,15,Casciana Terme,20010,Heart disease
+242,100,Marina Di Castagneto,30033,Alzheimer's disease
+243,85,Sega,36070,Heart disease
+244,60,Rifair,59021,Alzheimer's disease
+245,40,Goriano Sicoli,10010,Heart disease
+246,60,Creva,47854,Autism
+247,17,Tonengo,10070,AIDS
+248,29,Camucia,16030,Alzheimer's disease
+249,90,Mercato Saraceno,50026,Autism
+250,14,Cussorgia,35017,Anorexia
+251,44,Camparada,21100,AIDS
+252,82,Querce,53027,Alzheimer's disease
+253,93,Castagnaro,64020,Cancer
+254,58,Borgo A Mozzano,25080,Autism
+255,59,Tremensuoli,83010,Heart disease
+256,79,Torre Melissa,39037,Anorexia
+257,98,Campoli Del Monte Taburno,89011,Autism
+258,25,Raossi Di Vallarsa,24050,Alzheimer's disease
+259,90,Pozzi,29100,Heart disease
+260,90,Dubbione,39043,Anorexia
+261,49,Mucinasso,10014,AIDS
+262,75,Piedicolle,24010,Heart disease
+263,8,Cologne,28881,Anorexia
+264,95,Testaccio,32034,Cancer
+265,66,Ospedaletto D'Alpinolo,73040,Anorexia
+266,36,Terlizzi,63811,Cancer
+267,29,Tremezzo,55034,Heart disease
+268,59,Cetara,12045,Cancer
+269,81,Cosoleto,39020,Heart disease
+270,5,La Botte,31020,Cancer
+271,24,Castel Di Casio,34016,Alzheimer's disease
+272,60,San Lazzaro,64016,Heart disease
+273,73,Santuario Della Guardia,89812,Anorexia
+274,40,Plemo,86070,AIDS
+275,60,Teggiano,39040,Heart disease
+276,18,Marginone,10040,Cancer
+277,43,Licciana Nardi,75100,Alzheimer's disease
+278,55,Pietramontecorvino,89126,Autism
+279,41,Ghirlanda,91100,Cancer
+280,13,Ponteceno,23808,Cancer
+281,1,Ceciliano,32100,AIDS
+282,85,Rimella,39040,Anorexia
+283,42,Carciano,41028,Alzheimer's disease
+284,98,Capaccio Scalo,18024,Heart disease
+285,37,Nazzano,86010,Heart disease
+286,56,Valcava,39030,Heart disease
+287,37,Fabbrica Curone,12044,Heart disease
+288,30,Pattano,81100,Cancer
+289,98,Cerisola,33030,Alzheimer's disease
+290,93,Corneliano D'Alba,50066,Alzheimer's disease
+291,89,Oriolo Romano,39042,Autism
+292,39,Grotte,26827,AIDS
+293,38,Trigolo,09010,Anorexia
+294,16,Nespoli,14013,AIDS
+295,99,Sarmede,00148,Autism
+296,23,Casperia,46040,Heart disease
+297,45,Giffoni Valle Piana,61046,Alzheimer's disease
+298,89,Mozzagrogna,33050,Anorexia
+299,28,Pietole,84020,AIDS
+300,49,Ficuzza,01020,Cancer
+301,64,Tuoro,15042,Heart disease
+302,23,San Dorligo Della Valle,90030,Autism
+303,33,Musellaro,64018,Heart disease
+304,68,San Felice Sul Panaro,24060,Cancer
+305,17,Querceto,07040,AIDS
+306,100,Nuchis,19028,Alzheimer's disease
+307,81,Sant'Angelo Dei Lombardi,39050,Alzheimer's disease
+308,7,Granerolo,28010,Alzheimer's disease
+309,54,Piano Di Setta,09070,Anorexia
+310,1,Belverde,03043,Cancer
+311,38,Gradara,83040,Cancer
+312,38,Botticino,35043,Heart disease
+313,46,Sairano,45018,Autism
+314,41,Scafali,89028,Anorexia
+315,65,Mello,01030,Alzheimer's disease
+316,19,Roccabruna,57014,Alzheimer's disease
+317,66,Bivio Santa Cecilia,40059,Alzheimer's disease
+318,22,Melfi,25040,Alzheimer's disease
+319,11,Appiano Gentile,72015,Alzheimer's disease
+320,41,Casalvecchio Di Puglia,40059,AIDS
+321,75,Assago,19038,Anorexia
+322,70,Groppo,40011,Cancer
+323,99,Mombello Di Torino,88060,Alzheimer's disease
+324,74,Foresto,32032,Autism
+325,68,Salina',38050,Autism
+326,90,Serbadone,52018,Autism
+327,14,Orsara Bormida,37100,AIDS
+328,49,Cusino,17043,Alzheimer's disease
+329,77,Nocera Inferiore,20090,AIDS
+330,39,Genova,09040,Heart disease
+331,93,Piazza,25072,Cancer
+332,39,Costalunga,51020,AIDS
+333,23,Cafaggio,39030,AIDS
+334,2,Aliminusa,22020,Autism
+335,49,Monasterace,16045,Cancer
+336,11,Cancelli,28802,Autism
+337,43,Casotto,46046,Heart disease
+338,48,Laurein,25040,Alzheimer's disease
+339,80,Roraipiccolo,98134,Alzheimer's disease
+340,90,Titignano,10070,Autism
+341,12,Cocuruzzo,87020,Cancer
+342,82,Beura,39030,Anorexia
+343,85,Pioppo,00039,Cancer
+344,39,Rocchetta Ligure,44026,Heart disease
+345,67,Morgex,67050,Alzheimer's disease
+346,64,Stegen,39030,Alzheimer's disease
+347,4,Monterosso Calabro,39030,Autism
+348,68,Vespolate,17037,AIDS
+349,99,Cingoli,75021,Alzheimer's disease
+350,12,Taureana,89812,Autism
+351,62,Palermo,82018,Cancer
+352,24,Mirano,36020,AIDS
+353,24,Acqualoreto,06022,AIDS
+354,40,Monte Amiata,98129,AIDS
+355,4,Paitone,40032,Alzheimer's disease
+356,52,Capestrano,90016,Cancer
+357,44,Magliano Alpi,37030,Autism
+358,12,San Marco La Catola,42100,Autism
+359,76,Sant'Arpino,37139,AIDS
+360,7,Capo Miseno,35020,Heart disease
+361,80,Fontanelle,89126,AIDS
+362,41,Quinzano D'Oglio,66026,Autism
+363,54,Pasiano,44011,Heart disease
+364,61,Gazzera,32040,Alzheimer's disease
+365,22,Villa Pigna,89131,Anorexia
+366,3,Vadena,15020,Autism
+367,89,Monteverde,50025,Cancer
+368,97,Marmora,23030,AIDS
+369,25,Noha,43018,Anorexia
+370,83,Alberone,09090,Heart disease
+371,29,Lanzo Di Martina Franca,45011,AIDS
+372,92,Casaluce,27020,Alzheimer's disease
+373,6,Pramollo,45030,AIDS
+374,21,Roccapalumba,23035,AIDS
+375,91,Terzigno,06041,Alzheimer's disease
+376,90,Proveis,28803,Anorexia
+377,71,Noventa Vicentina,28897,Anorexia
+378,94,Trebbio,54035,Anorexia
+379,47,San Siro,00041,Autism
+380,30,Vinadio,86070,Heart disease
+381,22,Bolzone,45012,AIDS
+382,1,Cavenzano,43050,Heart disease
+383,29,Cadegliano Viconago,20029,Cancer
+384,52,Arienzo,55022,Heart disease
+385,36,Ribordone,41046,Heart disease
+386,6,Castel San Pietro,81049,Heart disease
+387,30,Gorlago,23030,Cancer
+388,88,Collodi,94010,Anorexia
+389,33,Concadirame,41015,Anorexia
+390,19,Sospiro,98057,Anorexia
+391,56,Verrayes,44027,Autism
+392,11,San Tommaso Tre Archi,50012,Anorexia
+393,69,Canevare,87014,Heart disease
+394,86,Marinella,98143,AIDS
+395,53,Ziracco,12062,Cancer
+396,54,Campagna,02034,Autism
+397,3,Brinzio,06012,Autism
+398,92,Valle Castellana,27050,Cancer
+399,77,Villefranche,09010,Cancer
+400,60,Montagnola,41019,Autism
+401,74,Gordona,66020,Anorexia
+402,1,Montanare Di Cortona,28040,AIDS
+403,18,Esperia,83050,Anorexia
+404,57,Balossa Bigli,38030,Alzheimer's disease
+405,41,Treporti,15050,Heart disease
+406,28,Trivigliano,15030,AIDS
+407,88,Testico,19025,Alzheimer's disease
+408,19,Meta,51100,Cancer
+409,99,Isola,50031,Anorexia
+410,38,Sale Marasino,88841,Autism
+411,33,Campofranco,84076,Autism
+412,18,San Lorenzo,08018,AIDS
+413,10,Taormina,90124,Heart disease
+414,64,Gardone Riviera,84024,Anorexia
+415,77,San Giorgio,02034,Autism
+416,57,Roccapalumba,05035,Autism
+417,91,Abano Terme,13030,Heart disease
+418,21,Lamie Di Olimpie,65010,Anorexia
+419,99,Stefanaconi,50050,Autism
+420,92,Donnici Inferiore,14018,AIDS
+421,37,Pioppo,10042,AIDS
+422,100,Cadelbosco Di Sopra,88060,Alzheimer's disease
+423,39,Calvenzano,09010,Alzheimer's disease
+424,56,Forno Canavese,67015,AIDS
+425,16,Pegognaga,21020,Heart disease
+426,39,Mormanno,67050,Alzheimer's disease
+427,16,Settimo Milanese,89841,Alzheimer's disease
+428,32,Santa Domenica Ricadi,45030,Heart disease
+429,20,Sestu,10050,Anorexia
+430,18,Strasatti Di Marsala,90018,Anorexia
+431,59,Acquacalda,29027,Autism
+432,59,Fognano,50134,AIDS
+433,41,Selvena,09040,Alzheimer's disease
+434,14,Lariano,10010,Cancer
+435,64,Maniago,84061,Autism
+436,82,Varano Marchesi,33080,Cancer
+437,15,Promano,71032,Autism
+438,15,Rifreddo Mondovi',17015,AIDS
+439,62,Rionero In Vulture,39040,Anorexia
+440,30,Latte,67020,AIDS
+441,60,Boncore,22036,Cancer
+442,73,San Sebastiano Curone,42032,Heart disease
+443,7,Neviano,62012,Heart disease
+444,36,Masera,83015,Alzheimer's disease
+445,95,Longone Al Segrino,83042,Heart disease
+446,59,Montescano,23883,Autism
+447,72,Cossombrato,31040,Cancer
+448,81,San Matteo,67050,Heart disease
+449,79,Pezzan,03049,Heart disease
+450,31,San Pietro Di Scafati,83016,Heart disease
+451,49,Arigna,40024,AIDS
+452,65,Tindari,89064,Anorexia
+453,87,Cosola Di Cabella,19014,Anorexia
+454,46,Castiglione Falletto,23038,AIDS
+455,100,Cesena,16041,Anorexia
+456,24,Ponte A Ema,28100,Cancer
+457,50,Ranco,52032,AIDS
+458,73,Anzio,37068,Anorexia
+459,10,Padernello,29022,Autism
+460,59,Maretto,25056,AIDS
+461,66,Angri,91014,Alzheimer's disease
+462,19,Alviano,05020,Anorexia
+463,86,Filignano,12010,Autism
+464,73,Santa Maria Di Catanzaro,60011,AIDS
+465,71,San Fruttuoso Di Camogli,36042,AIDS
+466,96,Mazzarrone,97015,Autism
+467,1,Sumirago,15011,Heart disease
+468,12,Magione,70022,Anorexia
+469,42,Ales,42020,Autism
+470,62,Scalea,20090,Cancer
+471,3,Villa Scontrone,82018,Anorexia
+472,67,Rivoltella,38050,Anorexia
+473,94,Belmonte Calabro Marina,15050,Heart disease
+474,66,San Martino,85100,Cancer
+475,61,Frosini,86078,Alzheimer's disease
+476,91,Iddiano,55100,Alzheimer's disease
+477,97,Scheggia,90012,Heart disease
+478,36,Legnaro,13841,Alzheimer's disease
+479,79,Chianciano Terme,28841,Heart disease
+480,2,Lacedonia,91029,Anorexia
+481,75,Mandia Di Ascea,81100,Autism
+482,74,Lisanza,30013,AIDS
+483,85,Roveredo,66052,Heart disease
+484,94,Portobuffole',56040,Cancer
+485,51,Migliarina,13060,Alzheimer's disease
+486,48,Rottofreno,58037,Autism
+487,51,Mazzano Romano,25069,Anorexia
+488,69,Paradisoni,43025,Autism
+489,48,Calendasco,05035,Anorexia
+490,22,Sermoneta,86030,Heart disease
+491,51,San Pietro Polesine,18035,Heart disease
+492,59,Passo Corese,33095,Autism
+493,10,Calvanico,67049,Heart disease
+494,41,Castel Ruggero,26030,Alzheimer's disease
+495,48,Poggio Dei Pini,58011,Alzheimer's disease
+496,50,San Felice Val Di Non,05016,Anorexia
+497,21,Lorica,05024,Cancer
+498,43,Altissimo,05022,AIDS
+499,72,Montoro,61030,Anorexia
+500,68,Castel Fusano,39052,Anorexia
+501,4,Monesiglio,03013,Heart disease
+502,97,Arsoli,41055,Autism
+503,83,Ulignano,56044,AIDS
+504,52,Truden,16165,AIDS
+505,64,Campomaggiore,10080,Anorexia
+506,81,San Pietro In Vincoli,31030,Anorexia
+507,34,Castel Del Bosco,38046,Alzheimer's disease
+508,86,Induno Olona,75028,AIDS
+509,83,Cresseglio,89020,AIDS
+510,27,La Querce,44049,Anorexia
+511,71,Trambileno,39040,AIDS
+512,89,Orciano Di Pesaro,08020,Heart disease
+513,100,Pozza Di Acquasanta,45027,AIDS
+514,82,Tito,03042,Anorexia
+515,38,Campiglia,98049,AIDS
+516,29,Massanzago,29010,Heart disease
+517,38,Bure,88817,Anorexia
+518,93,Pieve San Giacomo,13045,Alzheimer's disease
+519,72,Moltrasio,39010,Heart disease
+520,21,Bellano,51019,AIDS
+521,94,Sedilo,15050,Anorexia
+522,9,Conscio,32044,AIDS
+523,83,Rasun Di Sotto,15024,Heart disease
+524,23,San Cesareo,83032,Heart disease
+525,76,Noasca,39024,Autism
+526,17,Sonnino,22069,Autism
+527,37,Piantedo,41030,Anorexia
+528,29,Sant'Eusebio,18100,Heart disease
+529,71,Quero,88100,AIDS
+530,34,Castignano,89127,AIDS
+531,60,Bertocchi,37069,Alzheimer's disease
+532,90,Riano,21029,Autism
+533,57,Cassano Valcuvia,84013,Anorexia
+534,70,Rocchetta Sandri,39050,Cancer
+535,70,Fabbriche,23024,Heart disease
+536,63,Montalbano Di Santarcangelo Di Romagna,66016,Alzheimer's disease
+537,94,Lungomare,32040,Anorexia
+538,89,Pieve Di Soligo,39017,Heart disease
+539,98,Pescocanale Di Capistrello,10060,AIDS
+540,74,Bariano,58045,Heart disease
+541,50,Lucrino,36010,Cancer
+542,27,Morrona,85020,Anorexia
+543,41,Mosciano Sant'Angelo,50039,Anorexia
+544,27,Pratiglione,98076,Heart disease
+545,92,La Storta,41049,Autism
+546,93,Epinel,75027,AIDS
+547,36,San Pietro Val Lemina,20872,Heart disease
+548,41,Cortandone,21018,AIDS
+549,14,Scala,35020,Cancer
+550,41,Abbazia,39031,AIDS
+551,14,Tatti,98025,AIDS
+552,32,Balze,44022,Alzheimer's disease
+553,50,Vermiglio,42015,Heart disease
+554,24,Campocroce,61010,Cancer
+555,88,Albaredo,03013,Cancer
+556,68,Villa Caldari,89133,AIDS
+557,27,Cascinare,29010,Autism
+558,39,San Marco,18018,Heart disease
+559,77,Ehrenburg,96010,AIDS
+560,77,Ponte A Elsa,33057,Anorexia
+561,95,Castelvisconti,84068,Cancer
+562,77,Madonna Dell'Olmo,37069,Cancer
+563,88,Bosisio Parini,29010,AIDS
+564,67,Cerete,23010,Autism
+565,1,Borgo Montello,39010,Cancer
+566,22,Ospedaletto,08020,Autism
+567,74,Castel San Pietro Romano,26030,Autism
+568,25,Botto,44020,Heart disease
+569,41,Castrignano Del Capo,85044,Alzheimer's disease
+570,55,Pompeano,00065,Heart disease
+571,36,Sottocastello,83010,AIDS
+572,90,Illasi,30039,Heart disease
+573,100,Telve Di Sopra,50028,AIDS
+574,90,Lentella,46046,Heart disease
+575,62,Sant'Angelo Muxaro,14013,Autism
+576,53,Bornago,33080,Autism
+577,71,Spineda,90124,AIDS
+578,90,Grilli,67069,Autism
+579,41,Fiumara Di Piraino,13835,Heart disease
+580,66,Nola,63900,Heart disease
+581,84,Valle Di Casies,26023,AIDS
+582,55,Cerqueto Del Tronto,80040,Cancer
+583,19,Venaria Reale,16046,AIDS
+584,8,Raddusa,36057,Alzheimer's disease
+585,35,Diano San Pietro,38087,Cancer
+586,15,Selva,16018,Alzheimer's disease
+587,63,Dragonea,12078,Heart disease
+588,90,S'Arridellu,00060,Cancer
+589,23,Freiberg Vinschga,87034,Autism
+590,6,Pozzallo,33090,Autism
+591,77,Carpane',21050,AIDS
+592,55,Adro,23874,Alzheimer's disease
+593,78,Fontanile,37122,AIDS
+594,80,Giannutri,81046,Heart disease
+595,71,Conca Dei Marini,07010,Cancer
+596,30,Ville,38010,Alzheimer's disease
+597,14,Ceretta Di San Maurizio Canavese,56020,Cancer
+598,3,Migheli,39011,Cancer
+599,29,Farra D'Isonzo,20060,Alzheimer's disease
+600,91,Sant'Anna,20064,Alzheimer's disease
+601,96,Bardalone,63900,Heart disease
+602,57,Valcimarra,24020,Alzheimer's disease
+603,14,Sansepolcro,08020,Alzheimer's disease
+604,69,Colonnata,04100,Alzheimer's disease
+605,71,Marsciano,10060,Anorexia
+606,39,Castro Marina,25044,Alzheimer's disease
+607,36,San Felice,46040,AIDS
+608,62,Napoli,37121,Heart disease
+609,32,Gandellino,35010,Anorexia
+610,61,Rutigliano,37050,Autism
+611,75,Scaltenigo,19034,AIDS
+612,3,Ospedaletto,41100,Heart disease
+613,87,Filetto,95021,Autism
+614,13,Collesalvetti,38037,Alzheimer's disease
+615,33,Candelu',33097,Anorexia
+616,9,Castel Guelfo Di Bologna,45023,AIDS
+617,78,Ulmi,88069,Anorexia
+618,92,San Rocco,28803,Anorexia
+619,90,Orgnano,23010,Cancer
+620,1,Ballabio,62022,Autism
+621,5,Filignano,88040,Anorexia
+622,48,Zola,94100,Anorexia
+623,85,Passirana,87020,Alzheimer's disease
+624,71,Zubiena,80139,Cancer
+625,51,Baia E Latina,35020,Cancer
+626,1,Solita',36036,Heart disease
+627,59,San Romualdo,06024,AIDS
+628,70,Smarano,84081,Alzheimer's disease
+629,1,Biancavilla,48100,AIDS
+630,52,Canali,67048,Heart disease
+631,53,Arcene,10040,AIDS
+632,43,Cervignano Del Friuli,34070,AIDS
+633,5,Pecorone,90133,Heart disease
+634,48,Boretto,09040,Anorexia
+635,87,Monticelli,89819,AIDS
+636,24,Viareggio,91017,Cancer
+637,87,Castagnole Monferrato,32100,Cancer
+638,89,Sant'Antonio,89866,AIDS
+639,18,Brenno Useria,33034,Cancer
+640,26,Ponte A Elsa,14040,Anorexia
+641,69,San Sossio Di Serino,17039,Alzheimer's disease
+642,36,Ponte Caffaro,22010,Alzheimer's disease
+643,42,Montelparo,42032,AIDS
+644,98,Borgo Hermada,13861,Cancer
+645,45,Campofelice Di Roccella,36030,Alzheimer's disease
+646,99,Carezza,65020,Cancer
+647,64,Pianacce,43039,Alzheimer's disease
+648,59,San Biagio Saracinisco,33080,Heart disease
+649,30,Borgoricco,39040,Cancer
+650,99,Levane,54100,Alzheimer's disease
+651,31,Combai,93012,Autism
+652,62,Roma,38059,Autism
+653,85,Castello Di Fiemme,41058,AIDS
+654,67,San Nicola Di Centola,84095,Cancer
+655,56,Licignano Di Napoli,26834,Autism
+656,59,Cassano D'Adda,25020,AIDS
+657,87,Santonuovo,40026,AIDS
+658,20,Summonte,33050,Cancer
+659,79,Trinita' D'Agultu E Vignola,24040,AIDS
+660,13,Migliaro,55034,Autism
+661,9,Cascano,84135,Autism
+662,88,Castel Dell'Aquila,20090,Heart disease
+663,60,Mercatino Conca,05015,Autism
+664,46,Mariano Comense,37069,Cancer
+665,55,Sesto Ed Uniti,72100,AIDS
+666,85,Roma,43015,Heart disease
+667,10,Versano,48017,AIDS
+668,33,Sticciano,08040,Heart disease
+669,6,Celletta,66050,Cancer
+670,84,Padula,80040,Cancer
+671,11,Ospedalicchio Di Bastia Umbra,70125,Heart disease
+672,78,Palena,00019,AIDS
+673,2,Manzano,27030,Autism
+674,81,Finero,33030,AIDS
+675,63,Valdivilla,21020,Anorexia
+676,41,Pasteria,39029,Alzheimer's disease
+677,61,Paganica,53040,Cancer
+678,36,Fossombrone,05030,Alzheimer's disease
+679,76,Boschi Sant'Anna,38030,Autism
+680,61,Birgi Aerostazione,25017,Anorexia
+681,77,Montecopiolo,38057,Anorexia
+682,84,Bitti,08020,Autism
+683,48,Scorcetoli,32022,Autism
+684,48,Mormanno,90151,Heart disease
+685,49,Barbian,21017,Cancer
+686,45,Torre D'Arese,70126,Heart disease
+687,98,Passignano Sul Trasimeno,38057,Heart disease
+688,20,Gracciano Di Colle Val D'Elsa,86049,Autism
+689,47,Terranova D'Arpaise,17030,AIDS
+690,30,Saltrio,61010,AIDS
+691,17,Almenno San Bartolomeo,41040,AIDS
+692,4,Ponteginori,12020,Heart disease
+693,21,Montagnaga,23829,Alzheimer's disease
+694,54,Villa Basilica,33050,Alzheimer's disease
+695,80,Baitoni,32032,Autism
+696,71,Nebbiuno,40026,Alzheimer's disease
+697,42,Polvica,41037,Alzheimer's disease
+698,16,Sant'Ippolito,39024,Heart disease
+699,78,Piandicastello,33095,AIDS
+700,68,Padova,91023,Heart disease
+701,8,Corbetta,00010,Autism
+702,61,Capena,26030,Alzheimer's disease
+703,29,Santa Maria La Fossa,36036,Cancer
+704,11,Redondesco,81013,Cancer
+705,85,San Giacomo,12020,Alzheimer's disease
+706,25,Villa Estense,03014,Cancer
+707,62,Darfo Boario Terme,15040,Alzheimer's disease
+708,47,Meta,10054,Autism
+709,44,Seiser Al,10070,Alzheimer's disease
+710,41,Laatsch,39052,Autism
+711,62,Loiri Porto San Paolo,84020,Autism
+712,3,Ripalimosani,35010,Heart disease
+713,47,Tassara,00189,Alzheimer's disease
+714,33,Rogorotto,83050,Alzheimer's disease
+715,74,Santa Cristina Gela,15048,Alzheimer's disease
+716,17,Malagrotta,87022,AIDS
+717,43,Canonica,43039,Anorexia
+718,87,Calolziocorte,08048,AIDS
+719,57,Semproniano,80040,Alzheimer's disease
+720,58,Ciorlano,95037,Alzheimer's disease
+721,45,Barghe,16014,Alzheimer's disease
+722,44,Olza,24129,Anorexia
+723,77,Lo Stradone,64026,Alzheimer's disease
+724,15,Corazzo,43022,Autism
+725,15,Langasco,25070,AIDS
+726,3,Isola Fossara,18030,Anorexia
+727,64,Tadasuni,16033,Autism
+728,81,Macchie,88056,Anorexia
+729,25,Libbiano,67015,Cancer
+730,19,San Fortunato,00137,Heart disease
+731,73,Falcade,85043,Heart disease
+732,55,Mühlwald,12044,AIDS
+733,68,Scheggino,11020,AIDS
+734,37,Fogliano,24036,Cancer
+735,47,St. Justina/Eppan,18017,Heart disease
+736,66,Ca' Emiliani,98040,Autism
+737,99,Montecchio Emilia,83010,AIDS
+738,93,Calasetta,82020,Alzheimer's disease
+739,92,Formia,66010,Anorexia
+740,35,Bando,88041,Heart disease
+741,35,Fucine,35028,Anorexia
+742,67,San Leone,11020,Cancer
+743,30,Mazzorno,10132,Autism
+744,85,Scurtabo',32043,Alzheimer's disease
+745,40,Spirano,23100,Alzheimer's disease
+746,22,Sant'Angelo Le Fratte,32020,Autism
+747,88,Rogno,28028,Autism
+748,24,Marina Di Melilli,33030,Anorexia
+749,89,Carzago Riviera,81028,Anorexia
+750,89,Cursi,27010,Alzheimer's disease
+751,94,Pozzi,64020,Cancer
+752,100,Cavaliere,38079,Heart disease
+753,97,Pesariis,20096,Cancer
+754,65,Biandronno,39011,Anorexia
+755,55,Prarostino,98066,Cancer
+756,90,Graffignana,73026,Cancer
+757,97,Legnago,25012,AIDS
+758,15,Perdasdefogu,95121,AIDS
+759,21,Budoia,12020,Cancer
+760,19,Mango,17044,Anorexia
+761,87,Soriano Calabro,26010,AIDS
+762,86,Rocca San Zenone,06034,AIDS
+763,99,Campiglia,20125,Autism
+764,54,Palidano,08030,Anorexia
+765,26,Dubbione,25059,Alzheimer's disease
+766,72,Roccapreturo,64100,Heart disease
+767,73,Santa Margherita,25080,Alzheimer's disease
+768,86,Villa Littorio,06024,Alzheimer's disease
+769,14,Carunchio,37045,Alzheimer's disease
+770,23,Sarone,22030,Cancer
+771,93,Arasi',39040,Cancer
+772,63,Diamante,30126,AIDS
+773,25,Falvaterra,39048,Autism
+774,74,Rocca D'Arsie',09047,Cancer
+775,37,Caprile,36030,Heart disease
+776,53,Bolsena,41100,Cancer
+777,34,Zattaglia,09041,Autism
+778,50,Ronchena,24020,Autism
+779,4,Dovera,52048,Anorexia
+780,49,Frescada,86030,Alzheimer's disease
+781,21,Murisengo,23857,Alzheimer's disease
+782,46,Albaredo,31050,Anorexia
+783,8,Piedicolle,33050,Autism
+784,11,Vedronza,67037,AIDS
+785,86,Poscante,30027,Autism
+786,66,Banzena,48015,Cancer
+787,30,San Mango,61029,Anorexia
+788,3,Grognardo,38030,Heart disease
+789,69,Rotta Primero,53012,AIDS
+790,85,Galati,61040,Cancer
+791,69,Verchiano,52014,AIDS
+792,57,San Defendente,31057,Autism
+793,43,Osoppo,19038,Cancer
+794,48,Cavaion Veronese,31010,Autism
+795,25,Ottava,30020,Heart disease
+796,37,Esine,44026,AIDS
+797,86,Acquafredda,20021,Alzheimer's disease
+798,34,Venegono Superiore,10012,Autism
+799,92,Novaretto,88060,Alzheimer's disease
+800,24,Castelvetrano,39047,Cancer
+801,67,Ottaviano,59100,Anorexia
+802,55,Marinella,46027,Cancer
+803,23,Corrubbio,12012,Cancer
+804,21,Gurro,85040,Alzheimer's disease
+805,57,Villanova,33020,Autism
+806,85,Ripoli,60129,Anorexia
+807,37,Pufels,10080,Alzheimer's disease
+808,24,Roncanova,36023,Heart disease
+809,19,Bogogno,73014,Anorexia
+810,94,Vetrego,46030,Autism
+811,94,Cassacco,86010,Autism
+812,93,Torre Di Paestum,55031,Anorexia
+813,46,Su Linalvu,15040,Heart disease
+814,79,Marina Di Modica,46040,AIDS
+815,69,Genova,24038,Autism
+816,95,Breuil Cervinia,33090,Heart disease
+817,94,Wangen,03042,Anorexia
+818,86,Cavalcaselle,38020,AIDS
+819,99,Abbiate Guazzone,73034,Heart disease
+820,50,San Michele Delle Badesse,34070,Autism
+821,58,Presezzo,51010,Cancer
+822,89,Pradipozzo,58020,Heart disease
+823,9,San Lorenzo In Noceto,89126,Heart disease
+824,29,Fabbriche Di Vergemoli,05100,Alzheimer's disease
+825,47,Orciano Di Pesaro,10015,Autism
+826,6,Racale,91010,Cancer
+827,36,Ornago,74024,Cancer
+828,94,Montagnana Pistoiese,84029,Heart disease
+829,91,Piombino,05035,Anorexia
+830,53,Villa Baggio,10046,Autism
+831,93,Agugliaro,08020,AIDS
+832,74,Rapolla,01020,Autism
+833,8,Sorbo Di Montella,85010,Anorexia
+834,100,Cilavegna,80045,Cancer
+835,78,Pescocostanzo,98032,Heart disease
+836,93,Specchia Tarantina,87100,Anorexia
+837,51,Cesi,33038,Anorexia
+838,46,St.Walburg Ulte,87064,Alzheimer's disease
+839,11,Castel San Niccolo',59013,Anorexia
+840,16,Rivalba,31040,Alzheimer's disease
+841,8,Isca Sullo Ionio,28010,AIDS
+842,35,Massa San Giorgio,64032,Alzheimer's disease
+843,64,Valsorda,25020,Autism
+844,54,Cerisola,31025,Anorexia
+845,5,Gessopalena,42035,Autism
+846,73,Canedole,36011,AIDS
+847,6,Pozzilli,31059,Autism
+848,52,Tavernelle Emilia,46020,Cancer
+849,40,Levico Terme,00013,Autism
+850,6,Firenze,37030,Cancer
+851,49,Cintolese,98157,Alzheimer's disease
+852,46,Wange,67013,Anorexia
+853,89,Primolano,22017,AIDS
+854,16,Pioppo,09030,Autism
+855,82,Montelongo,19034,Cancer
+856,28,Stazione Di Furbara,90121,Heart disease
+857,4,Casale,25036,Autism
+858,22,Assago,34070,AIDS
+859,94,Badualga,43040,Autism
+860,61,Panicaglia,81042,Autism
+861,70,Specchia Gallone,25063,Anorexia
+862,56,Alghero,86170,Heart disease
+863,47,Torre Grande,10054,Autism
+864,100,Sorgane,13040,Heart disease
+865,86,Falconara Albanese,83013,Alzheimer's disease
+866,98,Linosa,16030,Heart disease
+867,88,La Serra,38071,Anorexia
+868,58,Gagliato,35030,Cancer
+869,32,Nave,00047,Alzheimer's disease
+870,93,Alessano,33020,AIDS
+871,92,Pieve,88046,Cancer
+872,54,Borgagne,10060,Alzheimer's disease
+873,97,Ravi,55022,Heart disease
+874,46,Volturara Irpina,81043,AIDS
+875,69,Curtatone,53011,Autism
+876,66,Sant'Eufemia,20020,AIDS
+877,18,Sas Murtas,00020,Cancer
+878,32,Calcata,39043,AIDS
+879,66,Castelmareri,44100,Autism
+880,56,Castrignano De' Greci,92100,Cancer
+881,48,Garlasco,47013,Alzheimer's disease
+882,34,Santa Valburga Ultimo,31055,Anorexia
+883,51,Furlo,43037,AIDS
+884,81,San Canzian D'Isonzo,09124,Anorexia
+885,22,Milano,61013,Alzheimer's disease
+886,24,San Pier Marina,67045,Heart disease
+887,21,Pavona,00133,Heart disease
+888,29,Siris,10153,Heart disease
+889,94,Roverchiaretta,15033,Alzheimer's disease
+890,98,Anchione,48100,Heart disease
+891,93,Cerignola,12070,Autism
+892,14,Atena Lucana Scalo,51017,Autism
+893,15,Ponte Del Giglio,12039,Anorexia
+894,97,Santicolo,25040,Anorexia
+895,2,San Nicola Arcella,50050,Alzheimer's disease
+896,98,Veniano,39030,Heart disease
+897,26,Sant'Alessio Siculo,19025,Cancer
+898,13,Campolongo Maggiore,36020,Anorexia
+899,97,Chiesa Di Rossano,84062,Cancer
+900,61,Lograto,67050,Cancer
+901,38,Sas Murtas,10026,Autism
+902,77,Oltre Il Colle,36010,Alzheimer's disease
+903,67,Campiglia Marittima Stazione,12040,Heart disease
+904,63,Lido Di Tarquinia,37053,Alzheimer's disease
+905,23,Coseano,20833,Alzheimer's disease
+906,60,Dagnente,54021,Anorexia
+907,72,Magliano Alfieri,90030,Cancer
+908,31,Solanas,10053,Autism
+909,33,Vallo Della Lucania,84022,Alzheimer's disease
+910,65,Cavasso Nuovo,33020,AIDS
+911,58,Monasterolo Di Savigliano,23020,Autism
+912,100,Capitan Loreto,38064,Cancer
+913,13,Frosolone,84010,Autism
+914,56,Pontassieve,07026,Alzheimer's disease
+915,64,Farra D'Isonzo,91024,Alzheimer's disease
+916,33,Verdins,93010,AIDS
+917,78,Villa Serraglio,34123,AIDS
+918,28,Pera Di Fassa,20125,Alzheimer's disease
+919,94,Napoli,27039,Alzheimer's disease
+920,33,Borgo Cervaro,28879,Heart disease
+921,76,Barrali,58015,Anorexia
+922,96,Conversano,27042,Cancer
+923,41,Roccaromana,37010,Heart disease
+924,25,Curti,67100,Cancer
+925,39,Donato,57128,Autism
+926,14,Empolitana,08020,AIDS
+927,89,Saone,31053,Cancer
+928,96,Antica Colle Piscioso,73021,Anorexia
+929,38,Colle Verde,28883,Anorexia
+930,70,Firenze,16159,Alzheimer's disease
+931,49,Portomaggiore,51034,Alzheimer's disease
+932,56,Calasca Castiglione,84033,Heart disease
+933,99,Sparanise,71020,Alzheimer's disease
+934,15,San Genesio Ed Uniti,25076,Heart disease
+935,91,San Sebastiano,25040,Autism
+936,18,Capriglia,66050,Anorexia
+937,21,Vicarello,03044,Anorexia
+938,75,Venezia,29017,Autism
+939,89,Cepina,43025,Autism
+940,36,Milano,58031,Autism
+941,44,Roma,98165,Alzheimer's disease
+942,67,Prima Porta,06030,Autism
+943,22,Bosco,72020,Heart disease
+944,97,Castagnoli,39010,Anorexia
+945,17,Rubiera,37020,Heart disease
+946,62,Sindacale,16022,Autism
+947,13,Casoli,07039,Alzheimer's disease
+948,8,Caslino Al Piano,55100,Alzheimer's disease
+949,49,Porto Salvo,00183,Alzheimer's disease
+950,62,Cassina Savina,39052,Alzheimer's disease
+951,73,San Leucio Del Sannio,39053,AIDS
+952,74,San Cataldo,82020,AIDS
+953,1,Roma,00020,AIDS
+954,53,Trento,17048,Autism
+955,16,Pegazzano,90147,Heart disease
+956,85,Carpeneda,66040,Anorexia
+957,40,Gnocchetto,07020,Anorexia
+958,74,Gerbido,57016,AIDS
+959,43,San Teodoro,12060,Autism
+960,50,Pedavena,97012,Autism
+961,59,Genova,64100,Anorexia
+962,17,Bagnatica,73010,AIDS
+963,93,Roma,15050,Heart disease
+964,44,Torriglia,38100,Autism
+965,88,Goriano Valli,67032,Anorexia
+966,3,Ternengo,98034,AIDS
+967,6,Omignano,30034,Heart disease
+968,91,Roccagloriosa,31043,Cancer
+969,8,Breolungi,38062,AIDS
+970,69,Pecco,20062,AIDS
+971,11,Messina,29024,Anorexia
+972,82,Madonna Del Pantano,81013,Anorexia
+973,42,Sandigliano,89131,Autism
+974,8,Villair,47100,Autism
+975,50,Aiello Del Sabato,88046,Cancer
+976,84,Petacciato,89833,Alzheimer's disease
+977,23,Castelvetrano,89851,Heart disease
+978,48,San Donato In Collina,03029,Alzheimer's disease
+979,2,Isola San Giulio,40068,AIDS
+980,60,Aiello Calabro,35124,Cancer
+981,49,Bavaria,12019,AIDS
+982,70,Montefalcione,03039,Heart disease
+983,63,Lode',39051,Autism
+984,4,Palinuro,19020,Autism
+985,74,Crastu,17020,Cancer
+986,91,Casalbordino,83039,AIDS
+987,8,Marmirolo,73054,Cancer
+988,18,Celesia,35030,Alzheimer's disease
+989,74,Castel San Pietro,02025,Heart disease
+990,8,Chiesuol Del Fosso,50050,Autism
+991,20,Rota D'Imagna,39030,Cancer
+992,73,Correggioverde,55018,Cancer
+993,29,Laiano,89822,Heart disease
+994,48,Santa Lucia,02100,Cancer
+995,1,Messina,10064,Anorexia
+996,47,Redona,27037,Autism
+997,73,Calvi Risorta,89129,Anorexia
+998,10,Garrufo,44020,Alzheimer's disease
