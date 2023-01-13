@@ -12,18 +12,27 @@ import pandas as pd
 
 from time import perf_counter
 
+import plotly.graph_objects as px
+import numpy
+
 RESULTS_DIR_PATH: Path = ((Path(__file__).absolute().parent.parent).joinpath("results"))
 METRICS = ["pe_time", "ka_time", "cg_time", "total_time", "output_rows"]
+N_USED = [100, 1000, 10000, 50000]
+BPL_USED = ["PT", "PF", "IT"]
+K_USED = [2, 5]
 
 def start_test(
     args: argparse.Namespace,
-    sim_results,
-    all_resuls,
-    runs: int = 3,
+    all_results,
+    runs: int = 2,
 ) -> None:
 
     print(f"\nStarting {runs} simulations with: input={args.input_file}, k={args.k}, bpl={args.bpl}", flush=True)
 
+    sim_results = {}
+    for metric in METRICS:
+        sim_results[metric] = []
+        
     for _ in range(runs):
         t0 = perf_counter()
 
@@ -56,23 +65,24 @@ def start_test(
         sim_results["total_time"].append(t4-t0)
         sim_results["output_rows"].append(len(R_out))
     
+    avg_results = {}
     for metric in METRICS:
+        avg = sum(sim_results[metric])/len(sim_results[metric])
         print(f"\n{runs} simulations with: input={args.input_file}, k={args.k}, bpl={args.bpl}", flush=True)
-        print(f"Average of {metric} is: {sum(sim_results[metric])/len(sim_results[metric])}", flush=True)
+        print(f"Average of {metric} is: {avg}", flush=True)
+        avg_results[metric] = avg
     
     # create a lock
     lock = multiprocessing.Lock()
     # acquire the lock
     lock.acquire()
 
-    all_results[(args.n, args.bpl, args.k)] = sim_results
+    all_results[(args.n, args.bpl, args.k)] = avg_results
 
     # release the lock
     lock.release()
 
     return
-
-
 
 if __name__ == "__main__":  # noqa: C901
     os.makedirs(RESULTS_DIR_PATH, exist_ok=True)
@@ -97,38 +107,47 @@ if __name__ == "__main__":  # noqa: C901
         # dictionary of all results: keys are tuples (n, bpl, k) and values are dict of results
         all_results: dict[tuple[int, str, int], dict[str, list[int]]] = manager.dict()
 
-        for n in [100]: #, 10000, 50000]:
+        for n in N_USED[0:1]: #, 10000, 50000]:
             args.input_file = f"data/db_{n}.csv"
             args.n = n
 
             # results: DictProxy = manager.dict()  # type: ignore
 
-            for bpl in ["PT", "PF", "IT"]:
+            for bpl in BPL_USED:
                 args.bpl = bpl
 
-                for k in [2,5]:
+                for k in K_USED:
                     args.k = k
-
-                    sim_results = {}
-                    for metric in METRICS:
-                        sim_results[metric] = []
                     
                     if multiprocessing:
                         process = multiprocessing.Process(
-                            target=start_test, args=(args, sim_results, all_results)  # type: ignore
+                            target=start_test, args=(args, all_results)  # type: ignore
                         )
 
                         processes.append(process)
                         process.start()
                     
-                    else: start_test(args, sim_results, all_results)
+                    else: start_test(args, all_results)
                 
 
             for process in processes:
                 process.join()
 
         print(all_results)
-        print(all_results[100, 'IT', 2])
+        
+        x = ["PF(k=2)", "PF(k=5)", "PT(k=2)", "PT(k=5)", "IT(k=2)", "IT(k=5)"]
+        #x = ["(100, 'PF', 2)", "(100, 'PF', 2)", "(100, 'PF', 2)", "(100, 'PF', 2)", "(100, 'PF', 2)", "(100, 'PF', 2)"]
+        
+        plot = px.Figure(data=
+        [px.Bar(
+            name = f'n={n}',
+            x = x,
+            y = [all_results[(n, bpl, k)]['output_rows'] for bpl in ['PF','PT','IT'] for k in [2,5]]
+        )
+        for n in N_USED]
+        )
+                        
+        plot.show()  
 
 
     except KeyboardInterrupt as e:
