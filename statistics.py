@@ -13,18 +13,21 @@ import pandas as pd
 from time import perf_counter
 
 import plotly.graph_objects as px
-import numpy
+import sys
 
-RESULTS_DIR_PATH: Path = ((Path(__file__).absolute().parent.parent).joinpath("results"))
+original_stdout = sys.stdout
+
+# RESULTS_DIR_PATH: Path = ((Path(__file__).absolute().parent.parent).joinpath("results"))
+RESULTS_DIR_PATH: Path = ((Path(__file__).absolute().parent).joinpath("results"))
 METRICS = ["pe_time", "ka_time", "cg_time", "total_time", "output_rows"]
-N_USED = [100, 1000, 10000, 50000]
-BPL_USED = ["PT", "PF", "IT"]
+N_USED = [100, 500, 1000, 2000, 5000, 10000]
+BPL_USED = ["PF", "PT", "IT"]
 K_USED = [2, 5]
 
 def start_test(
     args: argparse.Namespace,
     all_results,
-    runs: int = 2,
+    runs: int = 5,
 ) -> None:
 
     print(f"\nStarting {runs} simulations with: input={args.input_file}, k={args.k}, bpl={args.bpl}", flush=True)
@@ -65,12 +68,21 @@ def start_test(
         sim_results["total_time"].append(t4-t0)
         sim_results["output_rows"].append(len(R_out))
     
-    avg_results = {}
-    for metric in METRICS:
-        avg = sum(sim_results[metric])/len(sim_results[metric])
-        print(f"\n{runs} simulations with: input={args.input_file}, k={args.k}, bpl={args.bpl}", flush=True)
-        print(f"Average of {metric} is: {avg}", flush=True)
-        avg_results[metric] = avg
+
+    if os.path.exists(f'{RESULTS_DIR_PATH}/results.txt'):
+        mod = 'a' # append if already exists
+    else:
+        mod = 'w' # make a new file if not
+        
+    with open(f'{RESULTS_DIR_PATH}/results.txt', mod) as f:
+        sys.stdout = f
+        avg_results = {}
+        for metric in METRICS:
+            avg = sum(sim_results[metric])/len(sim_results[metric])
+            print(f"\n{runs} simulations with: input={args.input_file}, k={args.k}, bpl={args.bpl}", flush=True)
+            print(f"Average of {metric} is: {avg}", flush=True)
+            avg_results[metric] = avg
+        sys.stdout = original_stdout
     
     # create a lock
     lock = multiprocessing.Lock()
@@ -107,11 +119,9 @@ if __name__ == "__main__":  # noqa: C901
         # dictionary of all results: keys are tuples (n, bpl, k) and values are dict of results
         all_results: dict[tuple[int, str, int], dict[str, list[int]]] = manager.dict()
 
-        for n in N_USED[0:1]: #, 10000, 50000]:
+        for n in N_USED:
             args.input_file = f"data/db_{n}.csv"
             args.n = n
-
-            # results: DictProxy = manager.dict()  # type: ignore
 
             for bpl in BPL_USED:
                 args.bpl = bpl
@@ -132,23 +142,28 @@ if __name__ == "__main__":  # noqa: C901
 
             for process in processes:
                 process.join()
-
-        print(all_results)
         
-        x = ["PF(k=2)", "PF(k=5)", "PT(k=2)", "PT(k=5)", "IT(k=2)", "IT(k=5)"]
-        #x = ["(100, 'PF', 2)", "(100, 'PF', 2)", "(100, 'PF', 2)", "(100, 'PF', 2)", "(100, 'PF', 2)", "(100, 'PF', 2)"]
-        
-        plot = px.Figure(data=
-        [px.Bar(
-            name = f'n={n}',
-            x = x,
-            y = [all_results[(n, bpl, k)]['output_rows'] for bpl in ['PF','PT','IT'] for k in [2,5]]
-        )
-        for n in N_USED]
-        )
-                        
-        plot.show()  
+        for metric in METRICS:
+            x = ["PF(k=2)", "PF(k=5)", "PT(k=2)", "PT(k=5)", "IT(k=2)", "IT(k=5)"]
+            
+            plot = px.Figure(
+                data=
+                    [px.Bar(
+                        name = f'n={n}',
+                        x = x,
+                        y = [all_results[(n, bpl, k)][metric] for bpl in BPL_USED for k in K_USED]
+                    )
+                    for n in N_USED],
 
+                layout= px.Layout(
+                            title=px.layout.Title(text=f"{metric}", x=0.5, xanchor='center')
+            ))
+
+            yaxes_title = "Rows" if "rows" in metric else "Time (seconds)"
+            plot.update_xaxes(title="BPL and k")
+            plot.update_yaxes(title=yaxes_title)
+            # plot.show()  
+            plot.write_image(f"{RESULTS_DIR_PATH}/{metric}.png")
 
     except KeyboardInterrupt as e:
         for process in processes:
