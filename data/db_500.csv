@@ -1,0 +1,501 @@
+name,job,city_birth,pay,zip_code,disease
+ROSARIO FLORES,SPECIAL NURSE,Il Casone,36153,89900,AIDS
+James G Giambruno,Plumber,Esperia Inferiore,107649,88822,Heart disease
+Dohrman  Wong,Transit Operator,Muzza Sant'Angelo,78762,43040,AIDS
+Alpha S Ng,Police Officer 3,Massama,134265,88046,Cancer
+Remedios Garcia,Food Service Worker,Massimino,47303,6040,Heart disease
+Cecilia J Delatorre,Registered Nurse,Meco,30988,74026,Cancer
+MICHAEL CHOW,GENERAL LABORER,Vedegheto,62944,16047,Anorexia
+Gabriel  Llamas,Carpenter,Eboli,98175,3049,Alzheimer's disease
+Joseph C Lau,Custodian,Cambiago,59971,89040,Autism
+Mary Cobbins,Medical Records Tech Sprv,Pernumia,87549,11020,Heart disease
+Edwin  Gaffud,Police Officer 2,Viaccia,161029,54014,Autism
+Noel Velasco,Licensed Vocational Nurse,Paludi,88309,37030,Anorexia
+Peter D Damato,Police Officer 3,Librizzi,144688,42034,Anorexia
+Elsa Y Sanchez,Registered Nurse,Bagnolo Di Po,126070,6016,AIDS
+Janette Gatchalian,Nursing Assistant,Cella,93145,9080,Anorexia
+Susan C Hansen,Truck Driver,Monte Castello Di Vibio,104336,18013,Alzheimer's disease
+ALICE YU,X-RAY LABORATORY AIDE,Zingonia,54207,50058,Autism
+Tomas Suerte A Cu,Registered Nurse,Pennisi,121976,38060,Autism
+JULIE LAZAR,INSPECTOR II (POLICE DEPARTMENT),Rogeno,141919,3030,AIDS
+MEGAN FRANZEN,FIRE FIGHTER PARAMEDIC,Prascorsano,150249,6062,Cancer
+Shawn  Evans,Gardener,Villa Banale,67293,7040,Heart disease
+Edgardo Hilario,Custodian,Seis Am Schler,51228,46010,Alzheimer's disease
+Paul J Sandigo,Firefighter,Reggiolo,170267,72020,Cancer
+Lai Lung  Ng,Transit Operator,Fobello,78051,32040,AIDS
+Magdalena Sarmiento,Registered Nurse,Brixen,155381,7020,Autism
+Rolando Narag,Transit Car Cleaner,Barlassina,90268,75010,Alzheimer's disease
+STEPHAN THORNE,LIEUTENANT III (POLICE DEPARTMENT),Stazione Di Mongrassano,153113,89044,AIDS
+Danny R Guevara,Traffic Signal Electrician,Laces,114928,1028,Autism
+Judann L Brumfield,Patient Care Assistant,Mocaiana,52895,20060,Alzheimer's disease
+PAUL LAU,TRANSIT SUPERVISOR,Padova,168168,66030,Anorexia
+Robert A Rose,Deputy Sheriff,Tarnell,118741,83048,Heart disease
+Hany L Deleon,Medical Records Clerk,Artegna,74019,57038,Cancer
+WALTER CORBIN,PARTS STOREKEEPER,Cinzano,58149,33030,AIDS
+Patrick Shanahan,Truck Driver,Moggio Di Sopra,86377,39020,Anorexia
+Rosie Adkins,Communications Dispatcher 2,Cavallina,75338,64100,AIDS
+Jennifer Wong,Custodian,Genova,51173,33087,AIDS
+PETER FLORES JR,ANIMAL CONTROL OFFICER,Tegoleto,59449,15040,Heart disease
+Larry Bertrand,Police Officer 3,Monterosso Al Mare,172535,13900,Heart disease
+Michael L Krieger,Transit Power Line Worker,Migliarino,149449,63822,Autism
+Janeen M Castner,Senior Clerk Typist,Töll,60803,38077,Autism
+TOAN DO,ELECTRICAL TRANSIT SYSTEM MECHANIC,Doganella,96229,87020,Cancer
+BRANDY DANISON,SPECIAL NURSE,Vallonara,46999,12012,Cancer
+Gustavo Lemos,Transit Operator,Compiobbi,6362,88812,AIDS
+RHONDA WARD,COMMUNICATIONS DISPATCHER I,Villalfonsina,51727,8020,AIDS
+Mark G Siegenthaler,Senior Stationary Engineer,Bernate Ticino,106324,7031,AIDS
+Federico Aldana,Custodian,Colleferro,38149,33057,AIDS
+Steven Keith,Police Officer,Roccella Valdemone,115479,12010,Heart disease
+Valerie R Richardson,Community Police Services Aide,Tramonti,23115,33086,Anorexia
+SUSAN HARMON,REGISTERED NURSE,Potenza,120293,18024,Alzheimer's disease
+COLLETTE BAKER,REGISTERED NURSE,Castel Frentano,108924,19015,Heart disease
+Jingee A Macadangdang,Eligibility Worker,Lagonegro,43428,29014,Autism
+PATRICIA ANN LEW,AIRPORT POLICE SERVICES AIDE,Vendrogno,63934,10024,Anorexia
+WILLIAM MORSE,AUTOMOTIVE MECHANIC ASSISTANT SUPERVISOR,Valli Del Pasubio,115618,37013,AIDS
+Nadereh Fanaeian,Special Nurse,Quaglietta,94740,26851,Alzheimer's disease
+Blake W Cunningham,Police Officer,Malborghetto Valbruna,110587,57022,AIDS
+Thomas Abbott,Battlion Chief Fire Suppressi,San Cesario Di Lecce,202170,6010,Heart disease
+Nikki Griffey,Captain Fire Suppression,Lucca,170156,27020,Autism
+EDWARD SIMPO,PUBLIC SAFETY COMMUNICATIONS DISPATCHER,Santa Lucia,92726,18027,Heart disease
+Saul A Lima,Maintenance Machinist,Mesoraca,91151,80070,Autism
+IRENE GARCIA,REGISTERED NURSE,Castione,128772,31051,Heart disease
+Stanley Ching,Food Service Worker,Vezzano,47033,41043,Alzheimer's disease
+Kristian Aclan,Special Nurse,Fossalta,94388,48100,Autism
+HENRY WILLIAMS,WELDER,Messina,26870,27020,Alzheimer's disease
+Celso Patricio,Stationary Eng Sewage Plant,Caneva,93870,35138,Heart disease
+Juliano P Nocos Jr,Transit Operations Specialist,Rettorgole,90345,84020,Autism
+GARY TSE,PARKING CONTROL OFFICER,Acquavella,39588,86097,Autism
+Shou Mei  Lin,Registered Nurse,Neirone,146142,52025,Autism
+Nevin E Blair,Wire Rope Cable Maint Mechanic,Poggiridenti,139526,52100,AIDS
+BRIAN WEEBER,GARDENER,Palermo,54356,39051,Cancer
+BRETT WILLIAMS,TRANSIT OPERATOR,Vedrana,38800,6024,Autism
+JENNIFER DIGNADICE,REGISTERED NURSE,Casalguidi,106674,22070,Anorexia
+KIN-MAN HUNG,CARPENTER,Beccacivetta,94919,90151,Anorexia
+TOMMIE BARNETT,TRANSIT OPERATOR,Voltre,37038,38062,Autism
+PATRICK DALY,GENERAL LABORER,Torino Di Sangro Stazione,60038,89020,Cancer
+Graig Wells,Police Officer 3,Sporting Mirasole,121688,12082,Anorexia
+Wing Ng,Transit Operator,Vezzo,68884,73057,Anorexia
+Stephen Collins,Police Officer 3,Frabosa Sottana,130130,36065,Alzheimer's disease
+Wing Ng,Electronic Maintenance Tech,Desenzano Del Garda,117802,41038,AIDS
+Roger Emerson,Electronic Maintenance Tech,Bricco Favole,45893,88060,AIDS
+Louis W Wong,Police Officer 3,Albiano Magra,184808,8020,AIDS
+Anka Yuen Chan,Electrical Transit System Mech,Suvereto,116632,88060,Heart disease
+RENEE ALLEN,SPECIAL NURSE,Borgaria Di Narni,27975,37050,Anorexia
+RANDALL CHAN,DEPUTY SHERIFF,Caltignaga,119015,56040,AIDS
+Romelio Perez,Food Service Worker,Schieti,43924,39010,Alzheimer's disease
+Lucy P Clemons,Police Officer 3,Mandello Vitta,116309,10099,Heart disease
+BRANTON TSO,SHERIFF'S CADET,Salurn,34318,70024,Alzheimer's disease
+Melandro B Tiongson,Registered Nurse,Domegliara,160494,80034,Alzheimer's disease
+Jose Jimenez,Police Officer 3,Palermo,151319,13812,Anorexia
+Yu Chin Huang,Registered Nurse,San Cipriano,152393,42014,Anorexia
+ALPHA NG,POLICE OFFICER III,Alcamo,124557,60044,Alzheimer's disease
+Vicki Lee,Registered Nurse,Idro,143285,81057,Cancer
+Roberto Guzman,Transit Supervisor,Cinisello Balsamo,128343,65010,Autism
+ADELIA WHITFIELD,ENVIRONMENTAL SERVICE WORKER,Boffalora Sopra Ticino,36569,12055,Anorexia
+Lainie M Walling,Firefighter,Borgio,141867,12040,Anorexia
+Timothy O'Connor,Police Officer 3,Bagno Di Romagna,155587,33080,Cancer
+ALEJANDRO SANTOYO,ELECTRIC MOTOR REPAIRER,Moletolo,109285,98053,Heart disease
+Damien  Semien,Counselor Juvenile Hall,Brossasco,103526,30126,Alzheimer's disease
+Joseph P Duffy,Senior Building Inspector,Schifoni,143910,58031,Autism
+Marcella A Crosley,Marriage Family & Child Cnslr,La Luce,109742,43030,Heart disease
+Benedicta Burgos,Patient Care Assistant,Pieve Di Soligo,65929,31040,AIDS
+MELVIN MAUNU,POLICE OFFICER III,San Giorgio In Bosco,128745,12030,Alzheimer's disease
+Eddy K Wong,Deputy Sheriff,Sgonico,105997,39040,Cancer
+Robert J Porter,Police Officer 3,Concagno,219949,15042,Autism
+AMELIA TEJADA,HOME HEALTH AIDE,Scanzano,11428,51010,Cancer
+Nerissa Segovia,Special Nurse,Trespiano,105492,28861,Cancer
+John  Gaval,Personnel Clerk,Fundres,31457,84020,Cancer
+Gilberto Hernandez,Custodial Assistant Supervisor,Donnici Superiore,60744,16161,Cancer
+Cassandra E Chapman-Tabor,Train Controller,Gavignano Sabino,163232,20144,AIDS
+Jeffry A Herwig,Communications Systems Tech,Falze',145358,15030,Cancer
+Lin  Li,Registered Nurse,Mugarone,170124,4010,Anorexia
+MARGIE FONG,STATIONARY ENGINEER,Orsenigo,90289,39035,Alzheimer's disease
+Therese Leonard-Young,Public SafetyComm Disp,Acquanegra Cremonese,76445,72015,Alzheimer's disease
+RICHARD KIM,POLICE OFFICER III,Figline Vegliaturo,140688,25030,Alzheimer's disease
+JAMES WILSON,POLICE OFFICER III,Marebbe,121171,17020,Autism
+JIM GIANG,TRANSIT SUPERVISOR,Cologna,186868,88813,Heart disease
+Patrick O'Connell,Track Maintenance Worker,Cannero Riviera,75303,74020,Alzheimer's disease
+GEORGE LYSENKO,LIEUTENANT FIRE DEPARTMENT,Tencarola,209305,39043,Autism
+JOSEPHINE GONZAGA-FENETE,SENIOR ACCOUNT CLERK,Ceriale,56655,9010,Heart disease
+CARLOS ORTIZ,TRANSIT OPERATOR,Luserna,68093,55100,Anorexia
+KONG PING CHIN,CUSTODIAN,Succiso,37186,27050,Autism
+Christopher M Morris,Police Officer 3,Macchia D'Isernia,136326,85010,Heart disease
+Douglas Arnold,Sergeant 3,Vignole,146176,64046,Alzheimer's disease
+Eli Thomas,Firefighter,Colliano,139325,10078,Heart disease
+DIEGO HERNANDEZ,ANIMAL CARE ATTENDANT,Nuraminis,29007,67040,Alzheimer's disease
+Teresa  De Jesus,Community Police Services Aide,Buglio In Monte,77151,52014,Heart disease
+Misty Partin,Food Service Worker,Pramollo,23891,47016,Autism
+DOUGLAS AVEN,ELECTRICAL LINE HELPER,Monticelli Brusati,83914,40052,AIDS
+Joshua R Mcdonald,Transit Operator,Ovedi',42197,9045,AIDS
+Sit How Lee,Payroll Clerk,Challand Saint Anselme,53614,24020,Heart disease
+Min Hua  Ou,Custodian,Lonate Pozzolo,57215,10038,Alzheimer's disease
+HUGH LOUTENSOCK,DEPUTY SHERIFF,Ciserano,90003,38060,Autism
+Chester A Spirlin,Firefighter,Cannigione,146270,80124,Alzheimer's disease
+Monique  Barclay,Transit Operator,Limonta,63697,87030,Heart disease
+CHRISTOPHER PORTER,POLICE OFFICER II,Vottignasco,181069,12045,Autism
+Robert E Mikovich,Senior Deputy Sheriff,Madonna Dell'Arco,127898,81010,Alzheimer's disease
+Dustin C Novo,Captain Fire Suppression,Cervia Milano Marittima,239013,87040,Autism
+Nicholas A Naranjo,Deputy Sheriff,Carbonera,118752,47010,Anorexia
+Henry Lam,Transit Operator,Messina,36380,38060,Heart disease
+RICHARD SLATTERY,FIREFIGHTER,San Martino Canavese,139171,10040,Cancer
+Sam Lam,Transit Operator,Roma,91990,47016,Anorexia
+Nickolas A Orndorff,Animal Care Attendant,Chia,57169,25047,Autism
+Fernando Cuenco,Patient Care Assistant,San Nicola,72604,12100,Alzheimer's disease
+Hang L Yip,Custodian,Monte Di Mezzo,61414,53035,Heart disease
+RONNA BROWN,TRANSIT OPERATOR,Borgo Baccarato,85720,21019,Heart disease
+Joseph R Viglizzo,Firefighter,Garniga Terme,165159,30025,AIDS
+Mathew P Fluke,EMT/Paramedic/Firefighter,Cosniga,120110,38070,Heart disease
+Darrel Duong,Sheriff's Cadet,Cordignano,22655,24100,AIDS
+Shari Zinn,Diagnostic Imaging Tech II,Napola,112303,53048,Alzheimer's disease
+Alvaro A Abaunza,Police Officer,Levaldigi,90986,25134,Anorexia
+James Fiorica,Med Examiner's Investigator II,Villa Felice,101868,38020,Heart disease
+Regina Morley,EMT/Paramedic/Firefighter,Bomporto,157218,91025,Cancer
+Miguelita  Nicer,Registered Nurse,San Pellegrino,114549,33090,AIDS
+Benjamin Greenfield,Senior Parking Control Officer,Zurane,21410,25132,Autism
+Enrique Zavala,Transit Operator,Torricella,82370,39028,Alzheimer's disease
+HUAYUN NIU,DIAGNOSTIC IMAGING TECH II,San Simone,97378,29020,Heart disease
+Jerome  Grady,Police Officer 3,Gioia Dei Marsi,124336,86010,AIDS
+Charles Collins,Sergeant 3,Sant'Apollinare Chietino,162126,53037,Anorexia
+John  Tom,Automotive Mechanic,Petriccione,122408,39038,Cancer
+Alma Rosa Garcia,Registered Nurse,Ponteceno,65158,27020,Heart disease
+CHRISTOPHER QUANN,DIAGNOSTIC IMAGING TECH I,Castel Fusano,116051,25040,Anorexia
+Eileen  Choy,Registered Nurse,Abetone,149516,84085,Autism
+PAULA-JOTHAN LEIATO,COUNSELOR JUVENILE HALL,Capannelle,58519,7021,Alzheimer's disease
+Paul D Stefani,Police Officer 3,Bottagna,150014,40127,AIDS
+Lisa J Johnson,Special Nurse,Nuvolento,66978,37060,Autism
+Stanley  Lee,Police Officer 3,San Leonardo Di Linarolo,189504,10068,Alzheimer's disease
+Patrick G Overstreet,Inspector 3,Sant'Angelo A Fasanella,170482,58023,Autism
+Michael W Guess,Assistant Retirement Analyst,San Colombano,79125,30170,Cancer
+Jonathan M. Bykoff,Sheet Metal Worker,Pontinvrea,75153,37030,Cancer
+Mitchelene Tolentino,Patient Care Assistant,Collegno,79489,84060,Alzheimer's disease
+David Thompson,Community Police Services Aide,San Gallo,52281,41020,Autism
+Rosie Legaspi,Registered Nurse,Torre Orsaia,141112,64010,Cancer
+Haris  Kumar,Community Police Services Aide,Caravaggio,88868,73054,Cancer
+Lisa Inman,Senior Physician Specialist,Civitella,158364,14010,AIDS
+Anthony Arrechea,Plumber,Pray,40282,34073,Anorexia
+Jason K Chan,Firefighter,Selbagnone,168730,28060,Anorexia
+NICHOLAS COLANGELO,DIAGNOSTIC IMAGING TECH II,Matsc,185636,12039,AIDS
+DIANE VACCARO,CLINICAL NURSE SPECIALIST,Mandriola,165570,88838,AIDS
+MICHELLE PALLAVICINI,GARDENER,Santi Cosma E Damiano,25700,20060,Anorexia
+Michael  Pheng,Police Officer,Gionghi,127929,98165,Alzheimer's disease
+BONNIE GARVEY,REGISTERED NURSE,Piedipaterno Sul Nera,124418,41053,AIDS
+Dolly P Palomar,Custodial Assistant Supervisor,Casalanguida,66668,33061,Anorexia
+MICHAEL BAGLIN JR,POLICE OFFICER III,Montopoli In Val D'Arno,132151,38027,Cancer
+Stephanie Felder,Health Program Coordinator 3,Invorio,127437,81037,AIDS
+Brenda  Long,Registered Nurse,Carbone,114031,37030,Autism
+MARGARET LINDSEY,REGISTERED NURSE,Silvi Marina,81380,26841,Autism
+Bayani M Miranda,Transit Operator,Sperlonga,46694,37051,AIDS
+FLOYD ROLLINS,LIEUTENANT FIRE DEPARTMENT,Messina,186049,21025,Cancer
+Xiuping  Li,Custodian,Fabrizia,54760,80051,Anorexia
+Victor Porter,Transit Operator,Valdaora Di Mezzo,68966,84019,Autism
+Nelia Q Basanes,Registered Nurse,Pian Del Lago,182453,47030,Anorexia
+LEO BERNSTEIN,POLICE OFFICER I,Villammare,98067,29020,AIDS
+Chia Lee Huang,Transit Operator,Chieuti Scalo,82313,20063,AIDS
+Ladislao  Villegas,Cashier 1,Santa Marina Di Milazzo,61994,13020,AIDS
+MICHAEL DICHOSO,IS PROGRAMMER ANALYST - PRINCIPAL,Novelle,117807,27010,AIDS
+ALEXANDRA AMES,DIAGNOSTIC IMAGING TECH I,Puglia,101048,26030,Alzheimer's disease
+Blaise Gnagno,Parking Control Officer,Mologno,62974,88040,AIDS
+Rory H O'Neill,Electrical Transit System Mech,Cascina Amata,89626,55033,Alzheimer's disease
+Clayton  Harmston,Sergeant 3,Marina Di Nicotera,142035,6049,Alzheimer's disease
+Odell  Gibbs,Sr Statnry Eng Wtr Treat Plnt,Villate,125872,87020,Heart disease
+Jeremy Harris,Gardener,Molteno,16324,12040,AIDS
+Ayaz  Ahmed,Transit Operator,Ranzo,73973,60027,Heart disease
+Janice L Chong,Eligibility Worker,Ispica,59533,97015,AIDS
+Lisa M Moy,LieutFire Prev,Casone,164034,9073,AIDS
+James Wolanin,Airport Electrician Supervisor,Magnano In Riviera,114965,93010,AIDS
+Abdul Khadir,Captain Fire Suppression,Sismano,190438,70056,Cancer
+JAMES WHITE,TRANSIT OPERATOR,Lido Di Camaiore,98177,53013,AIDS
+Felix T Thieu,Inspector 3,Cossombrato,203256,22020,Heart disease
+Felipe Ochoa,Gardener,Bucciano,73943,2020,Alzheimer's disease
+JOSEPH TOOMEY,POLICE OFFICER II,Faver,148597,48031,AIDS
+Dustin L Daza,Police Officer 2,Tarantasca,184842,83040,Heart disease
+Ip S Ngo,Electrical Transit System Mech,Rogno,149354,32010,Autism
+CATALINA ARVANITES,MENTAL HEALTH REHABILITATION WORKER,Bondanello,13793,19032,Heart disease
+RODOLFO LOPEZ,TRANSIT CAR CLEANER,Rizziconi,66128,41023,AIDS
+Altaf Bhatti,Senior Stationary Engineer,Savoia Di Lucania,61607,1010,AIDS
+Ramiro Rodriguez,Custodial Assistant Supervisor,San Giovanni Delle Contee,57234,86090,Anorexia
+ZHEN HANG ZHUO,TRANSIT OPERATOR,Casteldelci,58036,13010,AIDS
+Yuan A Bartholomew,Transit Operator,Petrulli,14757,65027,Alzheimer's disease
+Albert D Leanillo,X-Ray Laboratory Aide,Cles,68156,6012,Anorexia
+Hung Lee,Licensed Vocational Nurse,Breo,97267,31030,Autism
+Glen E Price,Stationary Eng Sewage Plant,Falcinello,105509,15100,Cancer
+Nelson E Valle,Senior Stationary Engineer,Genova,96693,18024,AIDS
+Nelson Wong,Police Officer 3,Caprie,148607,18032,Cancer
+Robbie Crosley,Transit Operator,Villaganzerla,67366,22063,AIDS
+Robert Kellogg,Police Officer 3,Curanuova,161537,85010,Heart disease
+Joseph V Majeski,Animal Control Officer,Petroia,60988,23880,Autism
+Rene Nielsen,Police Officer 2,Brescia,141160,22029,Alzheimer's disease
+Kevin E Osullivan,Captain Fire Suppression,Monteu Da Po,170233,33020,AIDS
+Patricia Rivera,Porter,Sparone,5779,5035,Cancer
+JAMES PAYNE,TRANSIT OPERATOR,Boario Terme,47444,14020,Alzheimer's disease
+Richard Vetterli,Med Examiner's Investigator I,Scaria,79939,98144,Anorexia
+MAX GIGANTI,CAMP ASSISTANT,Giglio,5910,56121,Cancer
+Regina Berrigan,Police Officer 3,Su Linalvu,121146,22073,Cancer
+Tyrone L Burney,General Laborer Supervisor 1,Bisignano,102573,6049,AIDS
+ALBERN CIUDAD,POLICE OFFICER I,Ponte Della Priula,141425,10,Alzheimer's disease
+John Webb,Police Officer 3,Madonna Dell'Arco,129503,84083,Anorexia
+JOHN SANTOS,PORTER,Confienza,53724,39022,Anorexia
+Kyle J Merkins,Lieutenant Fire Suppression,Diano San Pietro,219061,98050,Heart disease
+Christopher Walsh,General Laborer,Bellagio,31326,1033,Anorexia
+John Choi,Deputy Sheriff,Terraverde,135392,39020,Anorexia
+Amber E Jones,Transit Operator,Montemarzino,46298,11016,AIDS
+Ai Ling  Wu,Custodian,Pagliara,56773,22100,Autism
+Asha K Charan,Licensed Vocational Nurse,Magliolo,97507,60037,AIDS
+GODFREY LEW,ELECTRONIC MAINTENANCE TECHNICIAN,Portella,143942,61020,Alzheimer's disease
+Jose  Quintanilla,Porter,Brindisi Casale,60440,28841,Anorexia
+Heriberto Cardoza,Arborist Technician,San Marco,73598,28887,Autism
+Jose  Delgadillo,Food Service Supervisor,Villafranca,67600,10090,Heart disease
+Amy Murphy,Registered Nurse,Bertalia,116365,46030,Anorexia
+ROMEO VOLUNTAD,PORTER SUPERVISOR I,San Martino Buon Albergo,60846,71030,Autism
+Thomas  Ragler,Transit Operator,Gudon,49723,80040,Anorexia
+DAVID BARTEL,SUPERVISING ELECTRONIC MAINTENANCE TECHNICIAN,Mölten,115280,64020,Anorexia
+DAVID WAKAYAMA,POLICE OFFICER III,Tressanti,133949,90144,Cancer
+NICOLIANN MANCHESTER,REGISTERED NURSE,Montoro,60255,36060,Anorexia
+Kevin Needham,Police Officer 3,Vigevano,172949,70023,Alzheimer's disease
+John Siu,Transit Operator,Torre Cerchiar,113312,84016,Cancer
+Ken J Dever,Firefighter,Napoli,165458,35027,Cancer
+Bobby M Johnson,Transit Operator,Vestenanova,106519,29010,Cancer
+Gerald L Coleman,Transit Operator,Costa Sant'Abramo,79004,25070,AIDS
+Dennis  Parmelee,Diagnostic Imaging Tech II,Isola D'Asti,134027,43038,Alzheimer's disease
+Ava Garrick,Sergeant 3,Golasecca,144229,38059,Anorexia
+JayLiana Mathes,Counselor Juvenile Hall,Badia A Elmi,23492,92027,Heart disease
+PHILIP WELSH,POLICE OFFICER III,Bibbiano,166855,11028,AIDS
+MIKE MCGLINCHY,ELECTRONIC MAINTENANCE TECHNICIAN,Viagrande,102401,20837,Anorexia
+Richard Gradwohl,Automotive Machinist,Casalbore,75695,37032,Autism
+Nicole Rosby,Patient Care Assistant,Salice Terme,41603,42017,Cancer
+MONIQUE MILLER,TRANSIT OPERATOR,Sternatia,62247,8048,Autism
+Susan Barlaan,Senior Eligibility Worker,San Martino In Gattara,71000,3030,Autism
+Ajay  Saxena,Deputy Sheriff,Murgetta,126820,66050,Alzheimer's disease
+SUZETTE MEYER,MENTAL HEALTH REHABILITATION WORKER,Montesilvano Marina,47848,13030,Alzheimer's disease
+Gregory A Salcedo,Police Officer 3,Carpignano,135066,10070,Cancer
+MIGUEL HUERTA JR,AUTOMOTIVE SERVICE WORKER,Sover,17540,33090,Anorexia
+Yao Hong Wu,Custodian,Visome,50530,88040,Alzheimer's disease
+Elpidio E Talusan,Operating Engineer Universal,Montauro,105388,33048,Cancer
+Johnny Vong,Police Officer 2,Comenduno,125010,9073,AIDS
+Aldo  Gomez,Physician Assistant,Milano,28128,9010,Autism
+Jim Tsanakas,Painter,Sternatia,62790,87010,Heart disease
+Eleanor B Macias,Home Health Aide,Villaggio Mancuso,58209,50028,Autism
+TWYILA LAY,NURSE PRACTITIONER,Fesca,175843,32027,Cancer
+Nicholas C Bazarini,Firefighter,Pianello Del Lario,228506,9088,Autism
+BATISTE COLLINS JR,TRANSIT OPERATOR,Porto Fuori,99886,16041,Autism
+Jordan K Hom,Police Officer 3,Statigliano,175484,14010,Cancer
+NANCY LEDESMA,REGISTERED NURSE,San Cassiano,128495,3030,AIDS
+CHARLES KREMENAK,MEDIA PROGRAMMING SPECIALIST,Pastena,66852,9080,Autism
+Guillermo Castillo Salgado,Transit Operator,Altino,81363,25070,Anorexia
+Robert Sankey,Transit Operator,Cognola,4182,34139,Autism
+Don L Noble,Firefighter,San Giuseppe,121681,33010,AIDS
+Maria Neilson,Public SafetyComm Supv,Dosson,39781,50051,Autism
+VICTOR LEE,AUTOMOTIVE MECHANIC,Firenze,81325,89134,Anorexia
+Cristina Franco,Sergeant 2,Oglianico,174120,89022,Anorexia
+Ernst Shrayber,Stationary Eng Sewage Plant,Villarosa,94398,12010,Heart disease
+Erlinda De Guzman,Special Nurse,Torino,44170,34143,AIDS
+Jean B Ancheta,Registered Nurse,Isso,165264,62038,Cancer
+Christopher Grona,Licensed Vocational Nurse,Grottaccia,91034,83030,Anorexia
+Thomas Hoffman,Communications Systems Tech,Lu Bagnu,91391,43018,Alzheimer's disease
+John Meaney,Sewer Service Worker,Zurane,112692,51011,AIDS
+Jeffrey Chow,Police Officer,Villaretto,136421,48015,Heart disease
+Denis  Garabadjiu,Transit Operator,Songavazzo,31592,87040,Anorexia
+Otmar Van Tholl,Electrical Transit System Mech,Silla,83271,95024,Alzheimer's disease
+Gregory Louis,Transit Car Cleaner,Ceresane,72837,37050,Cancer
+Lindsay Baldini,Registered Nurse,Villa Petto,82648,81037,Autism
+Justin-Paul D Bugarin,Police Officer 3,Ortona Dei Marsi,151091,47841,AIDS
+Julio D Delucchi,Lieutenant Fire Suppression,San Michele Cavana,174075,17100,Heart disease
+RON GLASS,TRACK MAINTENANCE WORKER,Truden,37074,64020,AIDS
+KURTIS WONG,POLICE OFFICER III,Girardi,118794,48010,Heart disease
+Ellis Cato,Transit Operator,Sant'Angelo,76846,71047,Alzheimer's disease
+CHRISTOPHER BUCK,URBAN FORESTRY INSPECTOR,Poggiana,64930,11021,Cancer
+Clifford Chiba,Deputy Sheriff,Musile Di Piave,146483,39030,Anorexia
+Mark W McClure,General Laborer,Pianella,16304,22100,Heart disease
+Carolina  Montes,Parking Control Officer,Ramuscello,68012,84012,Cancer
+Celso G Ilang,Deputy Sheriff,Bevera Di Sirtori,99198,27048,Alzheimer's disease
+Rolando Tanedo,Porter,Collestatte,58034,80122,Autism
+Michael S Clauzel,Senior Deputy Sheriff,Monte San Marino,160528,23024,Alzheimer's disease
+Leo W Emler,Parking Control Officer,Crosia,66342,38073,Cancer
+Jean C Erol,Custodian,Roio Piano,56194,40068,Heart disease
+Valerie D Carson,Senior Deputy Sheriff,Calcio,105899,52035,Autism
+Zhengwen Li,Transit Operator,Cordignano,87940,27034,Alzheimer's disease
+Larry Toji,Museum Guard,Parabiago,71120,25010,AIDS
+Mark  Mitchinson,Police Officer 2,Donoratico,136122,15017,Anorexia
+Jeff Iwasaki,Firefighter,San Damiano,170246,21047,Heart disease
+BRETT POWELL,CAPTAIN EMERGENCYCY MEDICAL SERVICES,Pianosa Isola,131477,80077,AIDS
+Ma Carlota B Malit,Registered Nurse,Tramonti,71677,41053,AIDS
+Dino M Cafferata,Firefighter,Rotonda,26417,3030,Alzheimer's disease
+Liliya  Sagadyna,Medical Evaluations Assistant,Taurisano,57732,39011,AIDS
+Liddon Levine,CounselorLog Cabin Rnch SFERS,Magomadas,21622,55032,Cancer
+Scott Kato,Counselor Juvenile Hall,Frassino Mantovano,67501,62035,Alzheimer's disease
+TAURICE DILLARD,CUSTODIAN,Sepino,49041,39020,Cancer
+Brian Neill,Police Officer 3,Brenzone,126876,65010,Heart disease
+Pei Jian Li,Electrical Transit System Mech,Belforte All'Isauro,146137,13060,Heart disease
+Elsie Rapisura,Diagnostic Imaging Tech I,Poncarale,64402,33050,Alzheimer's disease
+EDDY MORALES,TRANSIT OPERATOR,Sasso,96060,28014,AIDS
+Ronald Grenier,Custodian,Valmaggia,61829,24030,AIDS
+Adrian Jackson,Fingerprint Technician 2,Regnana,74062,67100,Autism
+TIMOTHY WONG,REGISTERED NURSE,Campiglia Marittima Stazione,85298,1030,Heart disease
+Czarina Melano  Ysip,Senior Clerk Typist,Illorai,59615,43040,Anorexia
+RAPHROGER GONZAGA,REGISTERED NURSE,Lunetta,96080,55100,Cancer
+David T Banks,Painter,Paraggi,84952,1010,Autism
+Lamar J Toney,Police Officer 3,Vaglio Serra,160400,45100,Heart disease
+Alberto Zapata,General Laborer,Semonte,59963,23017,AIDS
+Surendra  Ram,Asphalt Finisher,Vigonovo,40684,24010,Heart disease
+Armando S Suangco,Registered Nurse,Melpignano,147673,89017,AIDS
+Judith Hogan,Pub Safety Communication Coord,Weitental,94271,22010,Heart disease
+Brooke Pleasanton,Special Nurse,Presina,48635,29010,Alzheimer's disease
+LATRICE POWELL,FOOD SERVICE WORKER,Capurso,11495,67052,Autism
+Dennis Dea,Electrical Transit System Mech,San Potito Ultra,121920,16030,Anorexia
+SANH HUYNH,CUSTODIAN,Monfestino,55337,32016,Cancer
+Freeman  Chee,Transit Operator,Pollena Trocchia,151314,31018,Cancer
+Mark  Calgaro,Senior Parking Control Officer,Vestola Ghiare,80312,50019,Alzheimer's disease
+NATALIE LEVCHENKO,FIRE FIGHTER PARAMEDIC,San Valentino,140762,33028,Anorexia
+JESUS DUNGO,AIRPORT POLICE SERVICES AIDE,Ragalna,61216,41028,Anorexia
+Russell Tabayoyon,Deputy Sheriff,Malcesine,110341,92010,AIDS
+Marvin A Hooker,Transit Operator,Navelli,81593,65020,Cancer
+Kit Chau,ASR Senior Office Specialist,San Nazario,65440,39040,AIDS
+Louis W Ferrigno,Deputy Sheriff,Basilicagoiano,154369,25010,Autism
+Anthony Johnson,Police Officer 3,San Venerio,113397,83030,Autism
+JOHN SIKORA,FIREFIGHTER,Sant'Andrea Di Sorbello,171822,31054,Cancer
+JUAN COLLADO,PORTER,San Silvestro,8320,87027,AIDS
+GENOVIA MORGAN,HEALTH WORKER III,Nosellari,55807,41048,Anorexia
+April E Cheng,Senior Clerk,Roma,59769,39054,Cancer
+VICTOR BECERRA III,SHERIFF'S CADET,Dazio,41993,89900,Heart disease
+Merla Apolinario,Nursing Assistant,Bugiano,85454,84017,Alzheimer's disease
+Debra L Benton,Station Agent Muni Railway,Calolziocorte,89617,29025,Heart disease
+EDWARD GAMBLE,AIRPORT POLICE SERVICES AIDE,Monterotondo Marittimo,53251,62027,Heart disease
+Thaddeus S Zarzecki,Parts Storekeeper,Montesilvano,75095,20083,Autism
+Walter T Jacobs,Deputy Sheriff,Dubbione,119444,56100,Heart disease
+MARIO ENRIQUEZ,TRANSIT OPERATOR,Lodi,126355,20020,Autism
+LEROY PRUITT,PORTER ASSISTANT SUPERVISOR,Brez,46255,33058,Heart disease
+Gregory Burchard,Police Officer 2,San Pier Niceto,127945,97013,Cancer
+James V Kazarian,Utility Plumber,Torre Del Greco,138327,70011,AIDS
+MICHAEL KILGARIFF,SHERIFF'S SERGEANT,Sona,116791,39030,Anorexia
+JOSEPH SMITH,AIRPORT OPERATIONS SUPERVISOR,Marino,113568,35020,AIDS
+RICHARD HOOPER,REGISTERED NURSE,Pontremoli,119674,67059,Cancer
+Chun Wing  Ng,Custodian,Romagnano,57350,39054,Anorexia
+Todd M Plunkett,Firefighter,Albareto,251902,32031,Anorexia
+ALBERT NG,ELECTRICAL TRANSIT SYSTEM MECHANIC,Argusto,98688,42017,AIDS
+Mark Im,Sergeant 3,Camazzole,173287,23030,Anorexia
+FRANCES TSO-YEE,NURSE PRACTITIONER,Granvilla,36198,39027,Anorexia
+KEVIN ADKINS,DIAGNOSTIC IMAGING TECH II,Ialmicco,117675,80047,Heart disease
+Casey  Angel,Camp Assistant,Cevoli,6816,25044,Heart disease
+Heather Ali,Nurses Staffing Assistant,San Giustino,32414,9015,AIDS
+Timothy Hellman,Med Examiner's Investigator II,Pardu Nou,111385,29010,Cancer
+Ed M  Gragasin,Transit Operator,Roccalbegna,41017,6060,Autism
+SOLITA EJANDA,REGISTERED NURSE,Este,139098,87030,Heart disease
+Randy Jajeh,IS Technical-Journey,Sassofeltrio,66061,30013,Heart disease
+Jimmy J Mao,Transit Operator,Seio,48135,64031,AIDS
+ANH NGUYEN,POLICE OFFICER I,Saccolongo,99340,27047,AIDS
+Jonathon Lucchetti,Police Officer 2,Acquicella,123493,57025,Anorexia
+TYRONE INGRAM,MENTAL HEALTH REHABILITATION WORKER,Maggio,51385,57023,AIDS
+Evette M Geer-Stevens,Transit Supervisor,Roccaspromonte,198968,33078,Heart disease
+Sean M Healy,Asphalt Finisher Supervisor 1,Prata D'Ansidonia,70108,67019,Autism
+ROBERT WALKER-JR,POLICE OFFICER III,San Giuseppe Jato,143678,24063,Heart disease
+FLORENTINA CAGAMPAN,NURSING ASSISTANT,Magnano,63712,67021,AIDS
+Gary Gee  Lee,Stationary Eng Sewage Plant,Firenze,105018,25050,Autism
+Clarence  Greenwood,Transit Operator,Vanzago,67268,39021,Cancer
+Wandia S Hoke,Health Worker 3,Cafaggio,65839,47027,Alzheimer's disease
+Norma Gundayao,Patient Care Assistant,Beura Cardezza,73476,84084,Anorexia
+Joseph  Sims,Truck Driver,Migliuso,82151,73018,AIDS
+Mike J Broder,Sheet Metal Worker,Bormida,105544,52036,Autism
+Randolph V Bordon Jr,Registered Nurse,Calatafimi Segesta,145377,39030,AIDS
+Peirong  Zheng,Porter,Robbiano Di Giussano,58595,33040,Alzheimer's disease
+Dale W Miller,Chf Stationary Eng Sew Plant,Allume,132041,22071,Heart disease
+KIET NGUYEN,STATIONARY ENGINEER,Kardaun/Bozen,73552,17058,Cancer
+Bud Massey,Police Officer 3,Ardenza,128122,123,Alzheimer's disease
+Lawrence J Yup,Firefighter,Mezzano,157473,84056,Cancer
+Kervin Silas,Inspector 3,Carassai,168319,38060,Autism
+DAVID WONG,DEPUTY SHERIFF,Galatina,49874,67049,Cancer
+Roman Ancheta,Transit Operator,Ferrere,27237,29022,Autism
+JOSE MEJIA,AUTOMOTIVE BODY AND FENDER WORKER,Campi Bisenzio,84445,24060,Autism
+JEREMY MITCHELL,POLICE OFFICER III,Monrupino,123302,37060,Cancer
+JOHN SEARS III,TRANSIT OPERATOR,Altrei,67486,85033,Autism
+TONY SILVA,DEPUTY COURT CLERK II,San Giovanni,59403,3022,Autism
+Sean F McKinney,Lieutenant Fire Suppression,Castell'Alfero Stazione,202013,6131,AIDS
+NONA MELKONIAN,MEDIA PRODUCTION TECHNICIAN,Castelmassimo,33952,55,Heart disease
+Debra L Cope,Registered Nurse,Canneto Sull'Oglio,155234,17020,Cancer
+Bi Jian  Huang,Registered Nurse,Nociglia,143213,25020,AIDS
+Bartholomew Johnson,Police Officer 3,Quinzano,146807,50062,Heart disease
+Allan Recacho,Deputy Sheriff,Varcaturo,106540,4020,Anorexia
+Mike Ng,Transit Operator,Condofuri,110190,60011,Alzheimer's disease
+Grigoriy  Krayzbukh,Stationary Engineer,Mercato,102002,27010,AIDS
+MARTIN ESPINOSA,TRANSIT OPERATOR,Bandita,73327,35139,Autism
+Lenette Thompson,Firefighter,Santa Croce Del Lago,138031,33030,Anorexia
+WILLIAM LEWIS,POLICE OFFICER III,Radein,125634,51100,Alzheimer's disease
+BRANDI BENAS,AIRPORT COMMUNICATIONS OPERATOR,Lucera,102509,6072,Anorexia
+PAULA AVERY,SPECIAL NURSE,Brandico,35870,12022,Heart disease
+Khang T Ngo,Health Worker 2,Gargazon,59152,23838,Cancer
+BASSEY OBOT,ASSISTANT INSPECTOR III (POLICE DEPARTMENT),Rifreddo Di Saluzzo,142220,1033,Autism
+Michael L Tin,Firefighter,Canneto Di Caronia,153241,24038,Anorexia
+RAEMONA WILLIAMS,BATTALION CHIEF (FIRE DEPARTMENT),Fino Mornasco,188044,21018,AIDS
+David F Clements,Special Nurse,Barbarano Del Capo,122679,8020,Anorexia
+Oscar  Huerta,Electrical Transit System Mech,Casalpusterlengo,100630,9126,AIDS
+Maria Dulce D Carreon,Patient Care Assistant,Quadrelli Di Fellino,59043,35040,Cancer
+Qiufeng  Yu,Medical Evaluations Assistant,Borgo Cerreto,60799,39050,Autism
+MICHELLE LIDDICOET,POLICE OFFICER III,Vergnacco,135996,88060,Heart disease
+George R Brown Jr,Cement Mason,Lipomo,90905,35010,Autism
+Danielle Berthold,Nurse Practitioner,Rottofreno,130293,8022,Anorexia
+FRANK CRAWFORD,AUTOMOTIVE SERVICE WORKER,St. Nikolaus i. Eggen,60988,10060,Autism
+Linda B Calica,Clerk,Biancavilla,47497,10060,Cancer
+EUFEMIA LAWSON,MENTAL HEALTH REHABILITATION WORKER,Salasco,80035,84047,Heart disease
+Rene D Gube,Electr Instrmntn Tech Wtr Poll,Verdellino,111128,23891,AIDS
+Don  Patterson,Transit Operator,Resuttana San Lorenzo,18365,48015,Autism
+Natasha Lowery,Unit Clerk,Lesignana,60275,17030,Heart disease
+ADRIANA SANTOS,PUBLIC SERVICE TRAINEE,Albiolo,33801,87020,Anorexia
+Michael C Badger,Bldgs & Grounds Maint Supt,San Colombano,150715,64046,Autism
+Regiland S Pena,Police Officer 2,Montemurro,181482,147,AIDS
+Flavio Flaviani,Gardener,Cugliate Fabiasco,60477,18038,Anorexia
+Luz Figueroa Pereira,Elections Clerk,Casalbordino Stazione,52676,6069,Alzheimer's disease
+JOANN SIOBAL,REGISTERED NURSE,Le Prese,67769,22070,Heart disease
+CELSA ALVAREZ,REGISTERED NURSE,Kuppelwies,144868,14022,Heart disease
+VERNON PRESTON III,TRANSIT OPERATOR,Montecopiolo,120206,97014,AIDS
+EDMUNDO FERRARO,MENTAL HEALTH REHABILITATION WORKER,Villanova,75303,89822,Cancer
+Daniel J Dudley,Police Officer,Ragattisi,101279,67100,AIDS
+Frank D'Amico,Transit Operator,Roccanova,54375,29020,Cancer
+CRAIG RICHEY,OPERATING ENGINEER UNIVERSAL,Terranegra,89577,39010,AIDS
+Magaly  Saade,Firefighter,Cassinasco,192970,39043,Autism
+Leane Bybee,Public SafetyComm Disp,Morigerati,86949,16165,Cancer
+JOHN SYNAN,PARKING CONTROL OFFICER,Tusa,78833,39055,Autism
+Melvin Meno,Transit Operator,Cadilana,68733,73020,Autism
+Virginia Johnson,Eligibility Worker,Spinges,68056,7032,Autism
+Lisa R Farfan,Public SafetyComm Disp,Moriondo Torinese,100219,65015,Alzheimer's disease
+MICHAEL GODFREY,GENERAL LABORER SUPERVISOR I,Pertengo,75703,81027,Cancer
+Curtis J Geier,Clinical Pharmacist,Filadelfia,166463,9048,Autism
+ROBERTO RODRIGUEZ,REGISTERED NURSE,San Gervasio D'Adda,13028,13040,Autism
+Jheri D Wilson,Transit Operator,Testaccio D'Ischia,69576,76,Autism
+Elise Y Mcilveen,PS Aide to Prof,Pianello Val Tidone,36245,7030,Heart disease
+Matthew B Loya,Police Officer 2,Putzu Idu,142338,81030,Anorexia
+SHARON YASIN,TRANSIT OPERATOR,Zanano,60553,56024,Heart disease
+DUANE RIVERA,FIREFIGHTER,Olgiate Molgora,124736,26010,Heart disease
+Leo Emler,Parking Control Officer,Parcines,64766,38010,AIDS
+Nelson E Avelar,EMT/Paramedic/Firefighter,Torre Bormida,133270,35027,Alzheimer's disease
+ANA ALVAREZ,MENTAL HEALTH REHABILITATION WORKER,St.Johann In Ahrnta,56986,36070,Autism
+JENIFER REYES,REGISTERED NURSE,Tina,93519,55022,Anorexia
+JOHN MARKS,ELECTRICAL TRANSIT SYSTEM MECHANIC,Orciano Pisano,75775,39030,AIDS
+KEITH MURPHY,POLICE OFFICER I,Miazzina,115825,15052,Autism
+Linda Won,Registered Nurse,Pedona,111301,30170,Anorexia
+JOHNNIE WONG,TRANSIT SUPERVISOR,Trieste,94772,28010,Heart disease
+Regina Mitchell Thomson,Senior Clerk,Pre' Saint Didier,60120,14050,Autism
+Scott V Hua,Firefighter,Barzana,158165,30020,Autism
+KEITH PHILLIPS,FIRE FIGHTER PARAMEDIC,Caraverio,157589,22010,Heart disease
+Nelson Wong,Automotive Mechanic,Taccone,114590,15040,Autism
+Leonardo Paraohao,Parking Control Officer,Murlo,71884,20157,Cancer
+Donna J Spirlin,Firefighter,Livergnano,155907,98079,Cancer
+RICHARD JEE,TRANSIT OPERATOR,Titignano,77015,87050,Alzheimer's disease
+Raymond K Cheng,Eligibility Worker Supervisor,Bragno,87374,46029,Heart disease
+SHEDRICK MCDANIELS,DEPUTY SHERIFF,Milano,123072,71039,Heart disease
+Rodrigo Vizcarra,Stationary Eng Sewage Plant,Ranchio,93730,20,Alzheimer's disease
+Nicholas C Bazarini,Firefighter,Cimego,201761,58053,Alzheimer's disease
+RAYMOND BELL,TRANSIT OPERATOR,Tonengo,71290,25079,Anorexia
+Kenneth Buncum,General Laborer,Monticchio,63430,87012,Autism
+Ting A Huang,Transit Operator,Castellarano,71184,10040,Autism
+Sergio Reyes Cabrera,Truck Driver,Camigliano,66977,22030,Anorexia
+David J Rubin,Special Nurse,Napoli,8340,17052,Heart disease
+Devonce Sanders,Transit Operator,Guidomandri,70075,7046,Anorexia
+Mazhar Rashid,Stationary Engineer,Lusiglie',77916,14055,AIDS
+PATRICIA MALONEY,GARDENER,Lamadacqua,60075,38042,Alzheimer's disease
+Shannell Turner,Transit Operator,Scoffera,27729,10060,Anorexia
+Kenneth  Tan,Deputy Sheriff,Plasencis,160052,47100,AIDS
+Yahminah E Suber,Customer Service Agent Supv,Massanzago,85141,27047,Anorexia
+ALONZO SMITH-JR,TRANSIT OPERATOR,Macchia D'Isernia,79914,26012,Cancer
+WAYNE WOOLFOLK,DEPUTY SHERIFF,Montaldo Bormida,98781,91018,Anorexia
+Crispin S Jones,Police Officer 3,Torre Melissa,162413,35040,Anorexia
+DANIEL LI,TRANSIT OPERATOR,Leffe,74050,42030,AIDS
+Oren Rae,Public SafetyComm Supv,Vernagt,104950,41011,Anorexia
