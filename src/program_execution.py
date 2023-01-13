@@ -1,6 +1,6 @@
 import copy
 import logging
-from test_dir import test as test
+from path import test as test
 
 
 class PathCondition:

@@ -3,17 +3,17 @@ import copy
 from src import program_execution as pe
 from src import k_anonymization as ka
 from src import constraint_generation as cg
-import numpy as np
 import pandas as pd
 import logging
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_file', type=str, default="data/categorical.csv")
+    parser.add_argument('--input_file', type=str, default="data/db_100.csv")
     parser.add_argument('--output_file', type=str, default="data/out.csv")
     parser.add_argument('--k', type=int, default=2)
     parser.add_argument('--bpl', type=str, default="PT", help="Behaviour Preservation Level (PT) (PF) (IT)")
-    parser.add_argument('--categorical_columns', type=str, default="city_birth", help="Categorical Fields (separated by space)")
+    parser.add_argument('--categorical_columns', type=str, default="job city_birth", help="Categorical Fields (separated by space)")
+    parser.add_argument('--identifiers_columns', type=str, default="name", help="Identifiers Fields (separated by space)")
     parser.add_argument('--sensitive_column', type=str, default="disease")
     parser.add_argument('--config_file', type=str, default="config/basic.cfg")
     parser.add_argument("--verbose", default=True, action='store_true')
@@ -25,17 +25,22 @@ def main():
     
     R = pd.read_csv(args.input_file)
 
-    all_cols = R.columns.values.tolist()
-    non_sensitive = copy.deepcopy(all_cols)
-    non_sensitive.remove(args.sensitive_column)
-
     # make a list out of categorical cols
+    identifiers = args.identifiers_columns.split()
     categorical = args.categorical_columns.split()
+
+    # drop identifiers columns
+    for field in identifiers:
+        del R[field]
 
     # take all possible values for each categorical field in the bucket
     possible_vals = {}
     for field in categorical:
         possible_vals[field] = set(R[field].tolist())
+
+    all_cols = R.columns.values.tolist()
+    non_sensitive = copy.deepcopy(all_cols)
+    non_sensitive.remove(args.sensitive_column)
 
     PC_Buckets, PC_map = pe.program_execution(R, args.k)
 
