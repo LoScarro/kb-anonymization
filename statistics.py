@@ -1,5 +1,6 @@
 import multiprocessing
 import os
+import plotly.graph_objects as px
 import argparse
 from multiprocessing.managers import DictProxy
 from pathlib import Path
@@ -12,7 +13,7 @@ import pandas as pd
 
 from time import perf_counter
 
-import plotly.graph_objects as px
+
 import sys
 
 original_stdout = sys.stdout
