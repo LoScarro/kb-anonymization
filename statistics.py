@@ -13,6 +13,8 @@ import pandas as pd
 
 from time import perf_counter
 
+import numpy as np
+import matplotlib.pyplot as plt
 
 import sys
 
@@ -99,7 +101,8 @@ def start_test(
 
 if __name__ == "__main__":  # noqa: C901
     os.makedirs(RESULTS_DIR_PATH, exist_ok=True)
-
+    if os.path.isfile(f'{RESULTS_DIR_PATH}/results.txt'):       #remove in order to recreate
+        os.remove(f'{RESULTS_DIR_PATH}/results.txt')
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_file', type=str, default="data/db_100.csv")
     parser.add_argument('--output_file', type=str, default="data/out.csv")
@@ -165,6 +168,28 @@ if __name__ == "__main__":  # noqa: C901
             plot.update_yaxes(title=yaxes_title)
             # plot.show()  
             plot.write_image(f"{RESULTS_DIR_PATH}/{metric}.png")
+
+        labels = ["PF(k=2)", "PF(k=5)", "PT(k=2)", "PT(k=5)", "IT(k=2)", "IT(k=5)"]
+        width = 0.35
+
+        for n in N_USED:
+
+            pe = [all_results[(n, bpl, k)]["pe_time"] for bpl in BPL_USED for k in K_USED]
+            ka = [all_results[(n, bpl, k)]["ka_time"] for bpl in BPL_USED for k in K_USED]
+            cg = [all_results[(n, bpl, k)]["cg_time"] for bpl in BPL_USED for k in K_USED]
+
+           
+            fig, ax = plt.subplots()
+            ax.bar(labels, pe, width, color='#FFA15A')
+            ax.bar(labels, ka, width, bottom=pe, color='#AB63FA')
+            ax.bar(labels, cg, width, bottom=ka, color='#19D3F3')
+            ax.set_ylabel('Time (seconds)')
+            ax.set_title('Modules time distribution')
+            ax.legend(labels=["PE", "KA", "CG"])
+            plt.savefig(f"{RESULTS_DIR_PATH}/modules_{n}.png")
+            plt.show()
+            
+
 
     except KeyboardInterrupt as e:
         for process in processes:
