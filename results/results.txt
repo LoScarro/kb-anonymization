@@ -1,90 +1,540 @@
 
 5 simulations with: input=data/db_100.csv, k=5, bpl=IT
-Average of pe_time is: 0.01185691019982187
+Average of pe_time is: 0.009714682800040463
 
 5 simulations with: input=data/db_100.csv, k=5, bpl=IT
-Average of ka_time is: 0.45857818399981626
+Average of ka_time is: 0.38861831479989634
 
 5 simulations with: input=data/db_100.csv, k=5, bpl=IT
-Average of cg_time is: 0.16548381659995356
+Average of cg_time is: 0.13741006119998928
 
 5 simulations with: input=data/db_100.csv, k=5, bpl=IT
-Average of total_time is: 0.648488111000006
+Average of total_time is: 0.5484580247999474
 
 5 simulations with: input=data/db_100.csv, k=5, bpl=IT
 Average of output_rows is: 0.0
 
 5 simulations with: input=data/db_100.csv, k=2, bpl=IT
-Average of pe_time is: 0.012050572400039528
+Average of pe_time is: 0.00845003819977137
 
 5 simulations with: input=data/db_100.csv, k=2, bpl=IT
-Average of ka_time is: 1.2070115268001245
+Average of ka_time is: 0.787260052000238
 
 5 simulations with: input=data/db_100.csv, k=2, bpl=IT
-Average of cg_time is: 1.0360448272000213
+Average of cg_time is: 0.6493816529999095
 
 5 simulations with: input=data/db_100.csv, k=2, bpl=IT
-Average of total_time is: 2.2646395554002083
+Average of total_time is: 1.451346523400207
 
 5 simulations with: input=data/db_100.csv, k=2, bpl=IT
 Average of output_rows is: 2.0
 
-5 simulations with: input=data/db_100.csv, k=5, bpl=PT
-Average of pe_time is: 0.010712958400108618
-
-5 simulations with: input=data/db_100.csv, k=5, bpl=PT
-Average of ka_time is: 0.4027699328000381
-
-5 simulations with: input=data/db_100.csv, k=5, bpl=PT
-Average of cg_time is: 6.114674825599832
-
-5 simulations with: input=data/db_100.csv, k=5, bpl=PT
-Average of total_time is: 6.537689659399803
-
-5 simulations with: input=data/db_100.csv, k=5, bpl=PT
-Average of output_rows is: 22.4
+5 simulations with: input=data/db_100.csv, k=5, bpl=PF
+Average of pe_time is: 0.0060265010000875915
 
 5 simulations with: input=data/db_100.csv, k=5, bpl=PF
-Average of pe_time is: 0.010094791999654263
+Average of ka_time is: 0.23342420799999672
 
 5 simulations with: input=data/db_100.csv, k=5, bpl=PF
-Average of ka_time is: 0.38930584320041817
+Average of cg_time is: 3.8532688854000297
 
 5 simulations with: input=data/db_100.csv, k=5, bpl=PF
-Average of cg_time is: 6.21658153039989
-
-5 simulations with: input=data/db_100.csv, k=5, bpl=PF
-Average of total_time is: 6.624749162199805
+Average of total_time is: 4.1051505159999575
 
 5 simulations with: input=data/db_100.csv, k=5, bpl=PF
 Average of output_rows is: 19.0
 
-5 simulations with: input=data/db_100.csv, k=2, bpl=PF
-Average of pe_time is: 0.007821300999603409
+5 simulations with: input=data/db_100.csv, k=5, bpl=PT
+Average of pe_time is: 0.006590879400027916
+
+5 simulations with: input=data/db_100.csv, k=5, bpl=PT
+Average of ka_time is: 0.30822737319995214
+
+5 simulations with: input=data/db_100.csv, k=5, bpl=PT
+Average of cg_time is: 3.9327384104000886
+
+5 simulations with: input=data/db_100.csv, k=5, bpl=PT
+Average of total_time is: 4.25413044320012
+
+5 simulations with: input=data/db_100.csv, k=5, bpl=PT
+Average of output_rows is: 22.8
+
+5 simulations with: input=data/db_100.csv, k=2, bpl=PT
+Average of pe_time is: 0.00611865119990398
+
+5 simulations with: input=data/db_100.csv, k=2, bpl=PT
+Average of ka_time is: 0.701512019799884
+
+5 simulations with: input=data/db_100.csv, k=2, bpl=PT
+Average of cg_time is: 5.593536391000271
+
+5 simulations with: input=data/db_100.csv, k=2, bpl=PT
+Average of total_time is: 6.31011371200002
+
+5 simulations with: input=data/db_100.csv, k=2, bpl=PT
+Average of output_rows is: 33.8
 
 5 simulations with: input=data/db_100.csv, k=2, bpl=PF
-Average of ka_time is: 1.056786263200229
+Average of pe_time is: 0.008043035800073994
 
 5 simulations with: input=data/db_100.csv, k=2, bpl=PF
-Average of cg_time is: 8.059725558399986
+Average of ka_time is: 0.6704983352001364
 
 5 simulations with: input=data/db_100.csv, k=2, bpl=PF
-Average of total_time is: 9.130780573000084
+Average of cg_time is: 5.759017057999699
+
+5 simulations with: input=data/db_100.csv, k=2, bpl=PF
+Average of total_time is: 6.446360828399884
 
 5 simulations with: input=data/db_100.csv, k=2, bpl=PF
 Average of output_rows is: 29.0
 
-5 simulations with: input=data/db_100.csv, k=2, bpl=PT
-Average of pe_time is: 0.008791052800006582
+5 simulations with: input=data/db_500.csv, k=5, bpl=IT
+Average of pe_time is: 0.023214605000066512
 
-5 simulations with: input=data/db_100.csv, k=2, bpl=PT
-Average of ka_time is: 1.1262455692000004
+5 simulations with: input=data/db_500.csv, k=5, bpl=IT
+Average of ka_time is: 1.2817944626001918
 
-5 simulations with: input=data/db_100.csv, k=2, bpl=PT
-Average of cg_time is: 8.344237991400405
+5 simulations with: input=data/db_500.csv, k=5, bpl=IT
+Average of cg_time is: 2.805374918599773
 
-5 simulations with: input=data/db_100.csv, k=2, bpl=PT
-Average of total_time is: 9.486792467800115
+5 simulations with: input=data/db_500.csv, k=5, bpl=IT
+Average of total_time is: 4.116230457399615
 
-5 simulations with: input=data/db_100.csv, k=2, bpl=PT
-Average of output_rows is: 33.2
+5 simulations with: input=data/db_500.csv, k=5, bpl=IT
+Average of output_rows is: 0.0
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=IT
+Average of pe_time is: 0.02278867819968582
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=IT
+Average of ka_time is: 3.2614746512002966
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=IT
+Average of cg_time is: 4.943607809199966
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=IT
+Average of total_time is: 8.233386241600055
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=IT
+Average of output_rows is: 3.0
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PF
+Average of pe_time is: 0.0218604065999898
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PF
+Average of ka_time is: 1.207246189200123
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PF
+Average of cg_time is: 26.41885466340009
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PF
+Average of total_time is: 27.653844151400154
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PF
+Average of output_rows is: 105.0
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PT
+Average of pe_time is: 0.026860042000043903
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PT
+Average of ka_time is: 1.2764143967999189
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PT
+Average of cg_time is: 26.64088355260028
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PT
+Average of total_time is: 27.951033895600084
+
+5 simulations with: input=data/db_500.csv, k=5, bpl=PT
+Average of output_rows is: 116.0
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PT
+Average of pe_time is: 0.022035356600099476
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PT
+Average of ka_time is: 3.3248391989998707
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PT
+Average of cg_time is: 32.91851281600011
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PT
+Average of total_time is: 36.2712748588001
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PT
+Average of output_rows is: 164.0
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PF
+Average of pe_time is: 0.022367474000020593
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PF
+Average of ka_time is: 3.0505117821996466
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PF
+Average of cg_time is: 36.17164807480022
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PF
+Average of total_time is: 39.25028483580009
+
+5 simulations with: input=data/db_500.csv, k=2, bpl=PF
+Average of output_rows is: 145.0
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=IT
+Average of pe_time is: 0.0579149804001645
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=IT
+Average of ka_time is: 2.925923277399852
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=IT
+Average of cg_time is: 10.546482658200148
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=IT
+Average of total_time is: 13.538020813800177
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=IT
+Average of output_rows is: 0.0
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=IT
+Average of pe_time is: 0.06177423000008275
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=IT
+Average of ka_time is: 8.187183884599836
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=IT
+Average of cg_time is: 19.916477667000073
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=IT
+Average of total_time is: 28.173207901399838
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=IT
+Average of output_rows is: 17.0
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PF
+Average of pe_time is: 0.049142843000299766
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PF
+Average of ka_time is: 2.7591498431998844
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PF
+Average of cg_time is: 67.09365565980006
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PF
+Average of total_time is: 69.90938019979986
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PF
+Average of output_rows is: 225.0
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PT
+Average of pe_time is: 0.04823891160012863
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PT
+Average of ka_time is: 2.881481666799664
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PT
+Average of cg_time is: 69.93814010760016
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PT
+Average of total_time is: 72.87511863359978
+
+5 simulations with: input=data/db_1000.csv, k=5, bpl=PT
+Average of output_rows is: 263.2
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PF
+Average of pe_time is: 0.056178119200194485
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PF
+Average of ka_time is: 7.197266459599996
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PF
+Average of cg_time is: 86.6110862563999
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PF
+Average of total_time is: 93.8730597654001
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PF
+Average of output_rows is: 317.0
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PT
+Average of pe_time is: 0.05473361300009856
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PT
+Average of ka_time is: 7.322585798399996
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PT
+Average of cg_time is: 87.86022117299999
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PT
+Average of total_time is: 95.24484336019995
+
+5 simulations with: input=data/db_1000.csv, k=2, bpl=PT
+Average of output_rows is: 362.6
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=IT
+Average of pe_time is: 0.13282367760002672
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=IT
+Average of ka_time is: 6.571697252400009
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=IT
+Average of cg_time is: 19.52033128719995
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=IT
+Average of total_time is: 26.235386190600003
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=IT
+Average of output_rows is: 0.0
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=IT
+Average of pe_time is: 0.10508258500012743
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=IT
+Average of ka_time is: 14.984413716999734
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=IT
+Average of cg_time is: 27.115908411400234
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=IT
+Average of total_time is: 42.215101907600186
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=IT
+Average of output_rows is: 28.0
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PF
+Average of pe_time is: 0.09217883460005397
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PF
+Average of ka_time is: 4.542533405799804
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PF
+Average of cg_time is: 102.40831189200017
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PF
+Average of total_time is: 107.05187268099999
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PF
+Average of output_rows is: 407.0
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PT
+Average of pe_time is: 0.09513960739986942
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PT
+Average of ka_time is: 5.361151733200313
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PT
+Average of cg_time is: 117.17768627240002
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PT
+Average of total_time is: 122.64324540159996
+
+5 simulations with: input=data/db_2000.csv, k=5, bpl=PT
+Average of output_rows is: 473.0
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PF
+Average of pe_time is: 0.08008918659998017
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PF
+Average of ka_time is: 11.035320256999693
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PF
+Average of cg_time is: 141.23591996740015
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PF
+Average of total_time is: 152.3605120964001
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PF
+Average of output_rows is: 601.0
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PT
+Average of pe_time is: 0.08112261120004405
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PT
+Average of ka_time is: 11.961393507799949
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PT
+Average of cg_time is: 153.58954257520017
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PT
+Average of total_time is: 165.64097100140006
+
+5 simulations with: input=data/db_2000.csv, k=2, bpl=PT
+Average of output_rows is: 682.8
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=IT
+Average of pe_time is: 0.3143593591999888
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=IT
+Average of ka_time is: 16.47460310239985
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=IT
+Average of cg_time is: 51.47717307260009
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=IT
+Average of total_time is: 68.28498977080017
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=IT
+Average of output_rows is: 0.0
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=IT
+Average of pe_time is: 0.31559301759989467
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=IT
+Average of ka_time is: 41.1968538029998
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=IT
+Average of cg_time is: 99.74784021780052
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=IT
+Average of total_time is: 141.28043679800012
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=IT
+Average of output_rows is: 63.0
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PT
+Average of pe_time is: 0.20684492540003702
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PT
+Average of ka_time is: 13.519003002200042
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PT
+Average of cg_time is: 323.7175793531998
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PT
+Average of total_time is: 337.45813487699996
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PT
+Average of output_rows is: 1378.8
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PF
+Average of pe_time is: 0.24510808740014908
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PF
+Average of ka_time is: 14.149113550600124
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PF
+Average of cg_time is: 354.99160731840004
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PF
+Average of total_time is: 369.4024114414
+
+5 simulations with: input=data/db_5000.csv, k=5, bpl=PF
+Average of output_rows is: 1197.0
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PT
+Average of pe_time is: 0.206540555599895
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PT
+Average of ka_time is: 29.812676541600013
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PT
+Average of cg_time is: 424.3805926359999
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PT
+Average of total_time is: 454.4143958706001
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PT
+Average of output_rows is: 1757.2
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PF
+Average of pe_time is: 0.21369993460011755
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PF
+Average of ka_time is: 30.015857643200434
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PF
+Average of cg_time is: 425.5608612229995
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PF
+Average of total_time is: 455.8050249015998
+
+5 simulations with: input=data/db_5000.csv, k=2, bpl=PF
+Average of output_rows is: 1525.0
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=IT
+Average of pe_time is: 0.6764517481999064
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=IT
+Average of ka_time is: 34.61222215000053
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=IT
+Average of cg_time is: 116.78603604579948
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=IT
+Average of total_time is: 152.11008523439995
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=IT
+Average of output_rows is: 0.0
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=IT
+Average of pe_time is: 0.5302094749993558
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=IT
+Average of ka_time is: 69.74346322440033
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=IT
+Average of cg_time is: 173.8992996060002
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=IT
+Average of total_time is: 244.2043830350005
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=IT
+Average of output_rows is: 118.0
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PT
+Average of pe_time is: 0.450891433599827
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PT
+Average of ka_time is: 26.749793340399993
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PT
+Average of cg_time is: 762.8076341538002
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PT
+Average of total_time is: 790.0333333316005
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PT
+Average of output_rows is: 2649.2
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PF
+Average of pe_time is: 0.4790116913995007
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PF
+Average of ka_time is: 26.326664720200643
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PF
+Average of cg_time is: 777.3243574457996
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PF
+Average of total_time is: 804.1573249415997
+
+5 simulations with: input=data/db_10000.csv, k=5, bpl=PF
+Average of output_rows is: 2321.0
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PF
+Average of pe_time is: 0.3818959626001742
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PF
+Average of ka_time is: 59.09394924879962
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PF
+Average of cg_time is: 953.5141771983999
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PF
+Average of total_time is: 1013.0164839848
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PF
+Average of output_rows is: 3000.0
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PT
+Average of pe_time is: 0.42195846719987457
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PT
+Average of ka_time is: 63.50891675959974
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PT
+Average of cg_time is: 978.1128636646001
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PT
+Average of total_time is: 1042.0698344012003
+
+5 simulations with: input=data/db_10000.csv, k=2, bpl=PT
+Average of output_rows is: 3456.4

@@ -187,7 +187,6 @@ if __name__ == "__main__":  # noqa: C901
             ax.set_title('Modules time distribution')
             ax.legend(labels=["PE", "KA", "CG"])
             plt.savefig(f"{RESULTS_DIR_PATH}/modules_{n}.png")
-            plt.show()
             
 
 
