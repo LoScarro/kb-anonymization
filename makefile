@@ -7,6 +7,8 @@
 EX = python3
 MAIN = main.py
 STAT = statistics.py
+BPL = cg ka pe
+DATASETS = 100 500 1000 2000 5000 10000
 
 install:
 	pip install -r requirements.txt
@@ -25,11 +27,16 @@ full:
 #storage:
 #	$(EX) $(STO) configurations/client_server.cfg #--verbose
 #
-#clean:
-#	for number in 0.5 0.9 0.95 0.99 ; do \
-#		rm out.txt_$$number ; \
-#	done
+clean:
+	@$(foreach datasets,$(DATASETS), \
+		rm results/modules_$(datasets).png ; \
+	)
 
+	@$(foreach bpl,$(BPL), \
+		rm results/$(bpl)_time.png ; \
+	)
+
+	rm results/modules.png results/results.txt results/total_time.png results/output_rows.png
 #usage: 
 # for executing and generating graphics: make main dataset='value' bpl='value'
 # for generating only graphics: make graphics
