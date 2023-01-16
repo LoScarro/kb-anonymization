@@ -23,9 +23,7 @@ original_stdout = sys.stdout
 # RESULTS_DIR_PATH: Path = ((Path(__file__).absolute().parent.parent).joinpath("results"))
 RESULTS_DIR_PATH: Path = ((Path(__file__).absolute().parent).joinpath("results"))
 METRICS = ["pe_time", "ka_time", "cg_time", "total_time", "output_rows"]
-N_USED = [100, 500, 1000, 2000, 5000, 10000]
 BPL_USED = ["PF", "PT", "IT"]
-K_USED = [2, 5]
 
 def start_test(
     args: argparse.Namespace,
@@ -113,25 +111,30 @@ if __name__ == "__main__":  # noqa: C901
     parser.add_argument('--sensitive_column', type=str, default="disease")
     parser.add_argument('--config_file', type=str, default="config/basic.cfg")
     parser.add_argument("--verbose", default=False, action='store_true')
+    parser.add_argument("--n_used", default="100, 500, 1000, 2000, 5000, 10000")
+    parser.add_argument("--k_used", default="2, 5")
 
     args = parser.parse_args()
 
     manager = multiprocessing.Manager()
     processes: list[multiprocessing.Process] = []
     
+    N_USED = args.n_used.split(", ")
+    K_USED = args.k_used.split(", ")
+
     try:
         # dictionary of all results: keys are tuples (n, bpl, k) and values are dict of results
         all_results: dict[tuple[int, str, int], dict[str, list[int]]] = manager.dict()
 
         for n in N_USED:
             args.input_file = f"data/db_{n}.csv"
-            args.n = n
+            args.n = int(n)
 
             for bpl in BPL_USED:
                 args.bpl = bpl
 
                 for k in K_USED:
-                    args.k = k
+                    args.k = int(k)
                     
                     if multiprocessing:
                         process = multiprocessing.Process(

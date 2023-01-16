@@ -25,7 +25,7 @@ def main():
     
     R = pd.read_csv(args.input_file)
 
-    # make a list out of categorical cols
+    # make a list out of identifiers and categorical cols
     identifiers = args.identifiers_columns.split()
     categorical = args.categorical_columns.split()
 
