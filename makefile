@@ -21,12 +21,7 @@ partial:
 
 full:
 	$(EX) $(STAT) --n_used "100, 500, 1000, 2000, 5000, 10000"
-#graphics:
-#	$(EX) $(GRA)
-#
-#storage:
-#	$(EX) $(STO) configurations/client_server.cfg #--verbose
-#
+
 clean:
 	@$(foreach datasets,$(DATASETS), \
 		rm results/modules_$(datasets).png ; \
@@ -37,8 +32,9 @@ clean:
 	)
 
 	rm results/modules.png results/results.txt results/total_time.png results/output_rows.png
-#usage: 
-# for executing and generating graphics: make main dataset='value' bpl='value'
-# for generating only graphics: make graphics
-# for executing storage: make storage
+# usage: 
+# for install dependecies: make install
+# for executing main: make main dataset='value' bpl='value'
+# for executing statistics on few datasets: make partial
+# for executing statistics on all datasets: make full
 # for deleting output files: make clean
