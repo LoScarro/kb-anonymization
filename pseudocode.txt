@@ -123,7 +123,7 @@ def gen_constraints_IT(B, b):
   # conc_field is the name of the column
   for each conc_field in b:
     if b[conc_field] is a concrete value and conc_field != field:
-      S.append(f"{conc_field} != {b.conc_field}")
+      S.append(f"{conc_field} == {b.conc_field}")
 
   return S
 

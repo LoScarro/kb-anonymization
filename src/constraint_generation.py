@@ -24,7 +24,7 @@ def gen_constraints_IT(B, b, fields):
     # conc_field is the name of the column
     for conc_field in fields:
         if is_concrete(conc_field, b[conc_field]) and conc_field != field:
-            S.add((conc_field, "!=", b[conc_field]))
+            S.add((conc_field, "==", b[conc_field]))
 
     return S
 
@@ -61,7 +61,6 @@ def constraint_generation(A, bpl, fields, categorical, PC_map, cfg, categorical_
         min_val = {}        
         # take maximum value for each non categorical field in the bucket 
         max_val = {}
-
 
         for idx, field in enumerate(fields):
             if field not in categorical: 
