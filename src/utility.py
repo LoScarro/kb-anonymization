@@ -1,4 +1,5 @@
 def is_concrete(field, value, sd=""):
+    if isinstance(value, int): return True # if is an integer is concrete
     # a value is concrete if not contains "-" or ","
     return (("-" not in value) and ("," not in value) and (field != sd))
 

@@ -27,11 +27,18 @@ def k_anonymization(PC_Buckets, all_cols, sd, categorical, qi, k, bpl):
         for row in B_anon:
             del row['count']
     
+
         for b in B_anon:
             # no field in b contain concrete values
             if bpl == "IT" and (len(b) <= 1 or not any(is_concrete(field, value, sd) for field, value in b.items())):
                 logging.info("Unsatisfiable case founded")
                 continue
+            else:
+                for field, value in b.items():
+                    # if is concrete and is not categorical, cast to int
+                    if is_concrete(field, value, sd) and field not in categorical:
+                        b[field] = int(value)
+
             A.append((b, pc, B))
 
     return A

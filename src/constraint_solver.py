@@ -6,7 +6,10 @@ import logging
 def apply_constraints(S, possible_values):
     for (field, op, val) in S:
         if op == '==':
-            possible_values[field] = {val} # the set becomes a single possible value
+            if val in possible_values[field]:
+                possible_values[field] = {val} # the set becomes a single possible value
+            else:
+                possible_values[field] = {} # the set becomes empty: 2 disjoint conditions
         elif op == '!=':
             if val in possible_values[field]:
                 possible_values[field].remove(val)

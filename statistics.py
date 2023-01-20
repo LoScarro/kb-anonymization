@@ -119,8 +119,8 @@ if __name__ == "__main__":  # noqa: C901
     manager = multiprocessing.Manager()
     processes: list[multiprocessing.Process] = []
     
-    N_USED = args.n_used.split(", ")
-    K_USED = args.k_used.split(", ")
+    N_USED = list(map(int, args.n_used.split(", ")))
+    K_USED = list(map(int, args.k_used.split(", ")))
 
     try:
         # dictionary of all results: keys are tuples (n, bpl, k) and values are dict of results
@@ -128,13 +128,13 @@ if __name__ == "__main__":  # noqa: C901
 
         for n in N_USED:
             args.input_file = f"data/db_{n}.csv"
-            args.n = int(n)
+            args.n = n
 
             for bpl in BPL_USED:
                 args.bpl = bpl
 
                 for k in K_USED:
-                    args.k = int(k)
+                    args.k = k
                     
                     if multiprocessing:
                         process = multiprocessing.Process(
