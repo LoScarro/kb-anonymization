@@ -1,5 +1,6 @@
 # kb-anonymization - DPP project
 Authors: Lorenzo La Corte & Davide Scarrà
+Slides: https://docs.google.com/presentation/d/1iRyUV5yCQGUDL5d8ZYKKteP6Di4lyDiZoYNuDYwEGs0/edit?usp=sharing
 
 # usage
 for install dependecies: make install
