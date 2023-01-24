@@ -4,11 +4,11 @@ Authors: Lorenzo La Corte & Davide Scarrà
 Slides: https://docs.google.com/presentation/d/1iRyUV5yCQGUDL5d8ZYKKteP6Di4lyDiZoYNuDYwEGs0/edit?usp=sharing
 
 # usage
-for install dependecies: make install
-for executing main: make main dataset='value' bpl='value'
-for executing statistics on few datasets: make test-partial
-for executing statistics on all datasets: make test-full
-for deleting output files: make clean
+for install dependecies: ```make install```
+for executing main: ```make main dataset='value' bpl='value'```
+for executing statistics on few datasets: ```make test-partial```
+for executing statistics on all datasets: ```make test-full```
+for deleting output files: ```make clean```
 
 # description
 main.py consists in only one execution of the algorithm.
