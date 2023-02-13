@@ -3,14 +3,14 @@ Authors: Lorenzo La Corte & Davide Scarrà
 
 Slides: https://docs.google.com/presentation/d/1iRyUV5yCQGUDL5d8ZYKKteP6Di4lyDiZoYNuDYwEGs0/edit?usp=sharing
 
-# usage
+# Usage
 for install dependecies: ```make install```
 for executing main: ```make main dataset='value' bpl='value'```
 for executing statistics on few datasets: ```make test-partial```
 for executing statistics on all datasets: ```make test-full```
 for deleting output files: ```make clean```
 
-# description
+# Description
 main.py consists in only one execution of the algorithm.
 statistics.py consists in multiple executions of the algorithm on selected datasets and the generation of the statistics.
 Statistics are gathered and saved in /results and they involve:
